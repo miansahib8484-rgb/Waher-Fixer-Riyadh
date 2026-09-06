@@ -139,10 +139,13 @@ a{text-decoration:none;color:inherit;}
   color:var(--white); font-family:var(--font-en-head); font-weight:700; font-size:1.15rem;
 }
 .navbar-brand-custom .brand-mark{
-  width:38px; height:38px; border-radius:10px;
-  background:linear-gradient(135deg, var(--accent), var(--accent-dark));
+  width:40px; height:40px; border-radius:10px;
+  background:#fff;
   display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800;
+  padding:3px; overflow:hidden; flex-shrink:0;
 }
+.navbar-brand-custom .brand-mark img{width:100%; height:100%; object-fit:contain; display:block;}
+.site-footer .navbar-brand-custom .brand-mark{width:44px; height:44px;}
 .nav-link-custom{
   color:rgba(255,255,255,0.82) !important;
   font-weight:500;
@@ -167,6 +170,26 @@ a{text-decoration:none;color:inherit;}
 .lang-switch a.active{background:var(--accent); color:#fff;}
 .lang-switch a:hover:not(.active){color:#fff;}
 .navbar-toggler-custom{border:0; background:transparent; color:#fff; font-size:1.4rem;}
+
+/* Mobile/tablet nav utility row (language switch + call button) */
+@media (max-width:991.98px){
+  .navbar-utility{
+    width:100%;
+    justify-content:center;
+    margin-top:0.75rem;
+    padding-top:1rem;
+    border-top:1px solid rgba(255,255,255,0.1);
+  }
+  .navbar-utility .lang-switch{
+    order:1;
+  }
+  .navbar-utility .lang-switch a{
+    padding:0.5rem 1.15rem; font-size:0.9rem;
+  }
+  .navbar-utility .btn{
+    order:2; flex:1 1 auto; text-align:center;
+  }
+}
 
 /* floating WhatsApp button — always accessible, on every screen size */
 .whatsapp-float{
