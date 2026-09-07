@@ -32,6 +32,8 @@
     renderServiceDetail(lang);
     renderRelatedServices(lang);
     renderGallery(lang);
+    renderBrands(lang);
+    renderTestimonials(lang);
   }
 
   /* ---------------- Nav active state ---------------- */
@@ -79,6 +81,37 @@
         answer.style.maxHeight = !isOpen ? answer.scrollHeight + "px" : null;
       });
     });
+  }
+
+  /* ---------------- Brands We Repair ---------------- */
+  function renderBrands(lang){
+    const container = document.getElementById("brandsGrid");
+    if (!container || typeof brandsData === "undefined") return;
+    container.innerHTML = brandsData.map(brand => `
+      <div class="brand-chip">${brand[lang]}</div>
+    `).join("");
+  }
+
+  /* ---------------- Testimonials ---------------- */
+  function renderTestimonials(lang){
+    const container = document.getElementById("testimonialsGrid");
+    if (!container || typeof testimonialsData === "undefined") return;
+    container.innerHTML = testimonialsData.map(t => `
+      <div class="col-md-4 reveal">
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+          <p class="testimonial-text">${t.text[lang]}</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">${t.name[lang].charAt(0)}</div>
+            <div>
+              <div class="testimonial-name">${t.name[lang]}</div>
+              <div class="testimonial-area">${t.area[lang]}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `).join("");
+    observeReveals();
   }
 
   function renderFaqHome(lang){

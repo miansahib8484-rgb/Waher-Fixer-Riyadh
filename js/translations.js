@@ -15,7 +15,7 @@ const translations = {
     nav_contact: "Contact",
     nav_call: "Call Now",
 
-    brand_name: "Waher Fixer Riyadh",
+    brand_name: "Automatic Washing Machine Repair",
 
     /* ---- Home ---- */
     hero_tag: "Riyadh · Home Appliance Repair",
@@ -75,7 +75,7 @@ const translations = {
     gallery_filter_dr: "Dryers",
 
     area_title: "Appliance Repair Services Across Riyadh",
-    area_desc: "We serve customers across Riyadh and its surrounding neighborhoods, with technicians dispatched to your location for on-site diagnosis and repair.",
+    area_desc: "We serve customers in Al Yarmuk and across Riyadh's surrounding neighborhoods, with technicians dispatched to your location for on-site diagnosis and repair.",
 
     faq_tag: "Common Questions",
     faq_title: "Frequently Asked Questions",
@@ -172,6 +172,21 @@ const translations = {
     d_book_visit: "Book a Visit",
     d_sticky_title: "Need this fixed?",
     d_sticky_desc: "Get a technician out to your home in Riyadh.",
+
+    /* ---- Brands ---- */
+    brands_tag: "Trusted Experience",
+    brands_title: "Brands We Repair",
+    brands_sub: "Genuine experience servicing all major appliance brands sold in Saudi Arabia.",
+
+    /* ---- Testimonials ---- */
+    testimonials_tag: "Customer Reviews",
+    testimonials_title: "What Our Customers Say",
+
+    /* ---- Location / Map ---- */
+    location_tag: "Find Us",
+    location_title: "Our Location in Riyadh",
+    location_desc: "Based in Al Yarmuk, Riyadh — with technicians dispatched across the city for on-site repair.",
+    location_get_directions: "Get Directions",
   },
 
   ar: {
@@ -183,7 +198,7 @@ const translations = {
     nav_contact: "تواصل معنا",
     nav_call: "اتصل الآن",
 
-    brand_name: "واهر فيكسر الرياض",
+    brand_name: "صيانة الغسالات الأتوماتيكية",
 
     hero_tag: "الرياض · صيانة الأجهزة المنزلية",
     hero_title: "إصلاح احترافي للأجهزة المنزلية في الرياض",
@@ -242,7 +257,7 @@ const translations = {
     gallery_filter_dr: "النشافات",
 
     area_title: "خدمات إصلاح الأجهزة المنزلية في جميع أنحاء الرياض",
-    area_desc: "نخدم العملاء في الرياض والأحياء المجاورة، مع فنيين يصلون إلى موقعك للتشخيص والإصلاح مباشرة.",
+    area_desc: "نخدم العملاء في حي اليرموك وجميع الأحياء المجاورة في الرياض، مع فنيين يصلون إلى موقعك للتشخيص والإصلاح مباشرة.",
 
     faq_tag: "أسئلة شائعة",
     faq_title: "الأسئلة الأكثر شيوعًا",
@@ -331,6 +346,21 @@ const translations = {
     d_book_visit: "احجز زيارة",
     d_sticky_title: "بحاجة إلى إصلاح هذا الجهاز؟",
     d_sticky_desc: "أرسل فنيًا إلى منزلك في الرياض.",
+
+    /* ---- Brands ---- */
+    brands_tag: "خبرة موثوقة",
+    brands_title: "العلامات التجارية التي نصلحها",
+    brands_sub: "خبرة حقيقية في صيانة جميع الماركات الرئيسية للأجهزة المتوفرة في السعودية.",
+
+    /* ---- Testimonials ---- */
+    testimonials_tag: "آراء العملاء",
+    testimonials_title: "ماذا يقول عملاؤنا",
+
+    /* ---- Location / Map ---- */
+    location_tag: "موقعنا",
+    location_title: "موقعنا في الرياض",
+    location_desc: "نتواجد في حي اليرموك بالرياض، مع فنيين يصلون إلى مختلف أنحاء المدينة للإصلاح الميداني.",
+    location_get_directions: "الحصول على الاتجاهات",
   }
 };
 
@@ -480,6 +510,52 @@ const blogData = [
     excerpt: {
       en: "A dryer that spins but doesn't heat usually points to one of three common faults. Here's how to tell them apart.",
       ar: "النشافة التي تدور دون تسخين تشير عادة إلى واحد من ثلاثة أعطال شائعة. إليك كيفية التمييز بينها."
+    }
+  }
+];
+
+/* =========================================================
+   Brands serviced — shown as text badges (no logo artwork).
+   ========================================================= */
+const brandsData = [
+  { en: "Beko", ar: "بيكو" },
+  { en: "Daewoo", ar: "دايو" },
+  { en: "Panasonic", ar: "باناسونيك" },
+  { en: "LG", ar: "إل جي" },
+  { en: "Maytag", ar: "مايتاج" },
+  { en: "Hitachi", ar: "هيتاشي" },
+  { en: "Whirlpool", ar: "ويرلبول" },
+  { en: "Westinghouse", ar: "وستنجهاوس" },
+  { en: "Toshiba", ar: "توشيبا" },
+  { en: "Samsung", ar: "سامسونج" },
+];
+
+/* =========================================================
+   Testimonials — home page.
+   ========================================================= */
+const testimonialsData = [
+  {
+    name: { en: "Ahmed S.", ar: "أحمد س." },
+    area: { en: "Al Yarmuk, Riyadh", ar: "حي اليرموك، الرياض" },
+    text: {
+      en: "Excellent service — my washing machine was fixed the same day and the technician clearly explained what was wrong before starting.",
+      ar: "خدمة ممتازة — تم إصلاح غسالتي في نفس اليوم، وشرح الفني بوضوح ما هي المشكلة قبل بدء العمل."
+    }
+  },
+  {
+    name: { en: "Fatimah A.", ar: "فاطمة أ." },
+    area: { en: "Riyadh", ar: "الرياض" },
+    text: {
+      en: "Professional and honest pricing from the first call. Highly recommend Waher Fixer for any home appliance repair in Riyadh.",
+      ar: "أسعار واضحة وصادقة من أول اتصال. أنصح بشدة بواشر فيكسر لأي إصلاح أجهزة منزلية في الرياض."
+    }
+  },
+  {
+    name: { en: "Mohammed K.", ar: "محمد ك." },
+    area: { en: "Riyadh", ar: "الرياض" },
+    text: {
+      en: "Quick response on WhatsApp and the dryer works perfectly now. Will definitely call them again for future repairs.",
+      ar: "استجابة سريعة عبر واتساب، والنشافة تعمل الآن بشكل ممتاز. بالتأكيد سأتواصل معهم مرة أخرى مستقبلاً."
     }
   }
 ];

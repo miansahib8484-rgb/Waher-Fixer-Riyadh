@@ -171,30 +171,16 @@ a{text-decoration:none;color:inherit;}
 .lang-switch a:hover:not(.active){color:#fff;}
 .navbar-toggler-custom{border:0; background:transparent; color:#fff; font-size:1.4rem;}
 
-/* Mobile/tablet nav utility row (language switch + call button) */
-@media (max-width:991.98px){
-  .navbar-utility{
-    width:100%;
-    justify-content:center;
-    margin-top:0.75rem;
-    padding-top:1rem;
-    border-top:1px solid rgba(255,255,255,0.1);
-  }
-  .navbar-utility .lang-switch{
-    order:1;
-  }
-  .navbar-utility .lang-switch a{
-    padding:0.5rem 1.15rem; font-size:0.9rem;
-  }
-  .navbar-utility .btn{
-    order:2; flex:1 1 auto; text-align:center;
-  }
+/* Always-visible lang switch next to the hamburger icon (mobile/tablet) */
+@media (min-width:992px){
+  .mobile-lang-switch{display:none;}
 }
+
 
 /* floating WhatsApp button — always accessible, on every screen size */
 .whatsapp-float{
   position:fixed;
-  bottom:22px;
+  bottom:28px;
   inset-inline-end:22px;
   z-index:1050;
   width:58px; height:58px; border-radius:50%;
@@ -223,7 +209,7 @@ a{text-decoration:none;color:inherit;}
   100%{transform:scale(1.9); opacity:0;}
 }
 @media (max-width:575.98px){
-  .whatsapp-float{width:52px; height:52px; font-size:1.4rem; bottom:16px; inset-inline-end:16px;}
+  .whatsapp-float{width:52px; height:52px; font-size:1.4rem; bottom:22px; inset-inline-end:16px;}
 }
 
 /* ---------- Hero ---------- */
@@ -450,7 +436,7 @@ html[dir="rtl"] .link-arrow:hover i{transform:translateX(-3px);}
 .site-footer h6{color:#fff; font-weight:700; margin-bottom:1.1rem;}
 .site-footer a{color:rgba(255,255,255,0.72);}
 .site-footer a:hover{color:var(--accent);}
-.footer-bottom{border-top:1px solid rgba(255,255,255,0.08); margin-top:2.5rem; padding:1.25rem 0; font-size:0.85rem;}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.08); margin-top:2.5rem; padding:1.25rem 0 6rem; font-size:0.85rem;}
 .social-dot{
   width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,0.08);
   display:inline-flex; align-items:center; justify-content:center; margin-inline-end:0.5rem;
@@ -538,6 +524,46 @@ html[dir="rtl"] .breadcrumb-item+.breadcrumb-item::before{transform:scaleX(-1);}
   position:absolute; bottom:0.7rem; inset-inline-start:0.7rem;
   background:rgba(11,30,51,0.85); color:#fff; font-size:0.76rem; padding:0.28rem 0.65rem; border-radius:50px;
 }
+
+/* ---------- Brands ---------- */
+.brand-chip{
+  background:var(--white); border:2px solid var(--card-border); border-radius:50px;
+  padding:0.7rem 1.6rem; font-weight:700; font-family:var(--font-en-head);
+  color:var(--navy-900); font-size:1.05rem;
+  box-shadow:0 2px 10px -8px rgba(11,30,51,0.14);
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease, color .2s ease;
+}
+.brand-chip:hover{
+  transform:translateY(-3px); border-color:var(--accent); color:var(--accent-dark);
+  box-shadow:var(--shadow-soft);
+}
+#brandsGrid{display:flex; flex-wrap:wrap; gap:0.9rem; justify-content:center;}
+
+/* ---------- Testimonials ---------- */
+.testimonial-card{
+  background:var(--white); border:2px solid var(--card-border); border-radius:var(--radius-lg);
+  padding:1.8rem; height:100%;
+  box-shadow:0 3px 14px -8px rgba(11,30,51,0.16);
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.testimonial-card:hover{transform:translateY(-4px); box-shadow:var(--shadow-soft); border-color:var(--accent);}
+.testimonial-stars{color:#f5a623; font-size:0.9rem; margin-bottom:0.9rem; letter-spacing:2px;}
+.testimonial-text{color:var(--text); font-size:0.96rem; line-height:1.7; margin-bottom:1.4rem;}
+.testimonial-author{display:flex; align-items:center; gap:0.8rem;}
+.testimonial-avatar{
+  width:42px; height:42px; border-radius:50%; background:var(--accent-light); color:var(--accent-dark);
+  display:flex; align-items:center; justify-content:center; font-weight:700; font-family:var(--font-en-head);
+  flex-shrink:0;
+}
+.testimonial-name{font-weight:700; color:var(--navy-900); font-size:0.92rem;}
+.testimonial-area{font-size:0.8rem; color:var(--gray-500);}
+
+/* ---------- Location / Map ---------- */
+.location-map-frame{
+  border-radius:var(--radius-lg); overflow:hidden; border:2px solid var(--card-border);
+  box-shadow:0 3px 14px -8px rgba(11,30,51,0.16);
+}
+.location-map-frame iframe{width:100%; height:380px; display:block; border:0;}
 
 /* ---------- Blog ---------- */
 .blog-card{
