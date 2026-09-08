@@ -138,6 +138,17 @@ a{text-decoration:none;color:inherit;}
   display:flex; align-items:center; gap:0.55rem;
   color:var(--white); font-family:var(--font-en-head); font-weight:700; font-size:1.15rem;
 }
+/* English (LTR) brand name: wrap onto two lines on narrow screens instead of
+   truncating, so the full name stays readable. Arabic keeps its own natural fit. */
+html:not([dir="rtl"]) .navbar-brand-custom span:not(.brand-mark){
+  white-space:normal; line-height:1.15;
+}
+@media (max-width:575.98px){
+  html:not([dir="rtl"]) .navbar-brand-custom span:not(.brand-mark){
+    max-width:190px;
+  }
+  html:not([dir="rtl"]) .navbar-brand-custom{align-items:center;}
+}
 .navbar-brand-custom .brand-mark{
   width:40px; height:40px; border-radius:10px;
   background:#fff;
@@ -630,7 +641,7 @@ a:focus-visible, button:focus-visible, .form-control:focus-visible{
   .hero h1, .hero p.lead{text-align:center; margin-inline:auto;}
 }
 @media (max-width:420px){
-  .navbar-brand-custom{font-size:0.98rem; gap:0.4rem;}
+  .navbar-brand-custom{font-size:0.92rem; gap:0.4rem;}
   .navbar-brand-custom .brand-mark{width:32px; height:32px; font-size:0.85rem; border-radius:8px;}
   .hero h1{font-size:1.65rem;}
   .service-area, .final-cta{padding:1.75rem 1.1rem;}
