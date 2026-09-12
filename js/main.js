@@ -34,6 +34,7 @@
     renderGallery(lang);
     renderBrands(lang);
     renderTestimonials(lang);
+    renderAreas(lang);
   }
 
   /* ---------------- Nav active state ---------------- */
@@ -81,6 +82,15 @@
         answer.style.maxHeight = !isOpen ? answer.scrollHeight + "px" : null;
       });
     });
+  }
+
+  /* ---------------- Service Areas ---------------- */
+  function renderAreas(lang){
+    const container = document.getElementById("areasGrid");
+    if (!container || typeof areasData === "undefined") return;
+    container.innerHTML = areasData.map(area => `
+      <div class="area-chip"><i class="bi bi-geo-alt-fill"></i>${area[lang]}</div>
+    `).join("");
   }
 
   /* ---------------- Brands We Repair ---------------- */

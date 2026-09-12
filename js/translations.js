@@ -187,6 +187,22 @@ const translations = {
     location_title: "Our Location in Riyadh",
     location_desc: "Based in Al Yarmuk, Riyadh — with technicians dispatched across the city for on-site repair.",
     location_get_directions: "Get Directions",
+    location_leave_review: "Leave Us a Review",
+
+    /* ---- Service Areas ---- */
+    areas_tag: "Coverage",
+    areas_title: "Service Areas in Riyadh",
+    areas_sub: "Based in Al Yarmuk, with technicians dispatched to the following areas and beyond.",
+
+    /* ---- Guarantees / USPs ---- */
+    guarantees_tag: "Our Commitment",
+    guarantees_title: "Why You Can Rely On Us",
+    guarantee_1_t: "Same-Day Repair Service",
+    guarantee_1_d: "Most repairs are completed on the same day you contact us, so your appliance is back in service without long waits.",
+    guarantee_2_t: "30-Day Warranty",
+    guarantee_2_d: "Every repair is backed by a 30-day warranty covering parts and labor, for complete peace of mind after the visit.",
+    guarantee_3_t: "Transportation to Workshop",
+    guarantee_3_d: "When a repair needs specialised workshop equipment, we arrange collection of your appliance and return it once repaired.",
   },
 
   ar: {
@@ -361,6 +377,22 @@ const translations = {
     location_title: "موقعنا في الرياض",
     location_desc: "نتواجد في حي اليرموك بالرياض، مع فنيين يصلون إلى مختلف أنحاء المدينة للإصلاح الميداني.",
     location_get_directions: "الحصول على الاتجاهات",
+    location_leave_review: "اترك لنا تقييمًا",
+
+    /* ---- Service Areas ---- */
+    areas_tag: "التغطية",
+    areas_title: "مناطق الخدمة في الرياض",
+    areas_sub: "نتواجد في حي اليرموك، مع فنيين يصلون إلى المناطق التالية وما حولها.",
+
+    /* ---- Guarantees / USPs ---- */
+    guarantees_tag: "التزامنا",
+    guarantees_title: "لماذا يمكنك الاعتماد علينا",
+    guarantee_1_t: "خدمة إصلاح في نفس اليوم",
+    guarantee_1_d: "معظم الإصلاحات تتم في نفس يوم التواصل معنا، ليعود جهازك للعمل دون انتظار طويل.",
+    guarantee_2_t: "ضمان 30 يومًا",
+    guarantee_2_d: "كل إصلاح مغطى بضمان 30 يومًا يشمل القطع والعمالة، لراحة بال كاملة بعد الزيارة.",
+    guarantee_3_t: "نقل الجهاز إلى الورشة",
+    guarantee_3_d: "عندما يحتاج الإصلاح إلى معدات ورشة متخصصة، نقوم بترتيب استلام جهازك وإعادته بعد الإصلاح.",
   }
 };
 
@@ -558,4 +590,23 @@ const testimonialsData = [
       ar: "استجابة سريعة عبر واتساب، والنشافة تعمل الآن بشكل ممتاز. بالتأكيد سأتواصل معهم مرة أخرى مستقبلاً."
     }
   }
+];
+
+/* =========================================================
+   Service areas — Riyadh districts. Al Yarmuk is the home
+   base (confirmed); the rest are commonly-known nearby Riyadh
+   districts included as a starting list — confirm/edit with
+   the business owner before treating this as final.
+   ========================================================= */
+const areasData = [
+  { en: "Al Yarmuk", ar: "اليرموك" },
+  { en: "Al Malaz", ar: "الملز" },
+  { en: "Al Olaya", ar: "العليا" },
+  { en: "Al Naseem", ar: "النسيم" },
+  { en: "Al Rawdah", ar: "الروضة" },
+  { en: "An Nakheel", ar: "النخيل" },
+  { en: "Al Wurud", ar: "الورود" },
+  { en: "Hittin", ar: "حطين" },
+  { en: "Qurtubah", ar: "قرطبة" },
+  { en: "Al Sahafah", ar: "الصحافة" },
 ];

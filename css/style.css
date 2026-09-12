@@ -536,6 +536,30 @@ html[dir="rtl"] .breadcrumb-item+.breadcrumb-item::before{transform:scaleX(-1);}
   background:rgba(11,30,51,0.85); color:#fff; font-size:0.76rem; padding:0.28rem 0.65rem; border-radius:50px;
 }
 
+/* ---------- Service Areas ---------- */
+.area-chip{
+  background:var(--gray-50); border:2px solid var(--card-border); border-radius:50px;
+  padding:0.6rem 1.3rem; font-weight:600; color:var(--navy-900); font-size:0.92rem;
+  display:inline-flex; align-items:center; gap:0.5rem;
+  transition:transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.area-chip i{color:var(--accent-dark);}
+.area-chip:hover{transform:translateY(-3px); border-color:var(--accent); background:var(--white);}
+#areasGrid{display:flex; flex-wrap:wrap; gap:0.8rem; justify-content:center;}
+
+/* ---------- Guarantees / USPs ---------- */
+.guarantee-card{
+  background:var(--white); border:2px solid var(--card-border); border-radius:var(--radius-lg);
+  padding:2rem 1.6rem; text-align:center; height:100%;
+  box-shadow:0 3px 14px -8px rgba(11,30,51,0.16);
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.guarantee-card:hover{transform:translateY(-4px); box-shadow:var(--shadow-soft); border-color:var(--accent);}
+.guarantee-icon{
+  width:64px; height:64px; border-radius:50%; background:var(--accent-light); color:var(--accent-dark);
+  display:flex; align-items:center; justify-content:center; font-size:1.7rem; margin:0 auto 1.2rem;
+}
+
 /* ---------- Brands ---------- */
 .brand-chip{
   background:var(--white); border:2px solid var(--card-border); border-radius:50px;
