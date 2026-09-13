@@ -246,6 +246,8 @@
 
   /* ---------------- Gallery ---------------- */
   const galleryItems = [
+    { group: "wm", image: "hero-technician-front-load.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "wm", image: "hero-technician-dryer.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
     { group: "wm", image: "repair-01-drum-closeup.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
     { group: "wm", image: "repair-03-wiring-test.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
     { group: "dw", image: "repair-04-dishwasher-pliers.jpg", label: { en: "Dishwasher", ar: "غسالة صحون" } },
