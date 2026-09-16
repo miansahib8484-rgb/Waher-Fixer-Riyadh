@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://YOUR-DOMAIN.com/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/index.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/index.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/gallery.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/gallery.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/gallery.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/automatic-washing-machine-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/services/automatic-washing-machine-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/automatic-washing-machine-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/services/dishwasher-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dishwasher-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/services/dishwasher-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dishwasher-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/services/dryer-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dryer-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/services/dryer-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dryer-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/signs-washing-machine-needs-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/blog/signs-washing-machine-needs-repair.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/signs-washing-machine-needs-repair.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/dishwasher-cleaning-maintenance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/blog/dishwasher-cleaning-maintenance.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/dishwasher-cleaning-maintenance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/why-is-my-dryer-not-heating.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
+  </url>
+  <url>
+    <loc>https://YOUR-DOMAIN.com/ar/blog/why-is-my-dryer-not-heating.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/why-is-my-dryer-not-heating.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
+  </url>
+</urlset>

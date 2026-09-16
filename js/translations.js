@@ -38,6 +38,7 @@ const translations = {
     services_sub: "Three focused specialities, done properly — not a jack-of-all-trades list.",
     svc_view: "View Service",
     svc_book: "Book a Service",
+    badge_certified: "Certified Repair",
 
     why_tag: "Why Riyadh Trusts Us",
     why_title: "Built Around Honest, Careful Repair Work",
@@ -236,6 +237,7 @@ const translations = {
     services_sub: "ثلاث تخصصات محددة، ننجزها بإتقان بدلاً من قائمة عامة من كل شيء.",
     svc_view: "عرض الخدمة",
     svc_book: "احجز الخدمة",
+    badge_certified: "إصلاح معتمد",
 
     why_tag: "لماذا يثق بنا سكان الرياض",
     why_title: "خدمة صيانة أمينة ودقيقة",
@@ -405,7 +407,7 @@ const servicesData = {
     slug: "automatic-washing-machine-repair",
     icon: "bi-droplet-half",
     filterGroup: "wm",
-    image: "repair-03-wiring-test.jpg",
+    image: "hero-technician-front-load.jpg",
     title: { en: "Automatic Washing Machine Repair", ar: "إصلاح الغسالات الأوتوماتيك" },
     shortDesc: {
       en: "Professional repair for automatic washing machines and common washing machine faults.",
@@ -432,7 +434,7 @@ const servicesData = {
     slug: "dishwasher-repair",
     icon: "bi-cup-straw",
     filterGroup: "dw",
-    image: "repair-04-dishwasher-pliers.jpg",
+    image: "dishwasher-repair-technician-riyadh.jpg",
     title: { en: "Dishwasher Repair", ar: "إصلاح غسالات الصحون" },
     shortDesc: {
       en: "Reliable dishwasher repair for common cleaning, drainage, water and electrical problems.",
@@ -459,7 +461,7 @@ const servicesData = {
     slug: "dryer-repair",
     icon: "bi-wind",
     filterGroup: "dr",
-    image: "repair-02-dryer-filter.jpg",
+    image: "dryer-repair-technician-riyadh.jpg",
     title: { en: "Dryer Repair", ar: "إصلاح النشافات" },
     shortDesc: {
       en: "Professional dryer repair for heating, spinning, drying and operational problems.",
@@ -524,7 +526,7 @@ const blogData = [
     slug: "dishwasher-cleaning-maintenance",
     icon: "bi-cup-straw",
     group: "dw",
-    image: "repair-04-dishwasher-pliers.jpg",
+    image: "dishwasher-repair-technician-riyadh.jpg",
     date: { en: "July 2026", ar: "يوليو 2026" },
     title: { en: "Simple Dishwasher Maintenance That Prevents Repairs", ar: "صيانة بسيطة لغسالة الصحون تمنع الأعطال" },
     excerpt: {
@@ -536,7 +538,7 @@ const blogData = [
     slug: "why-is-my-dryer-not-heating",
     icon: "bi-wind",
     group: "dr",
-    image: "repair-02-dryer-filter.jpg",
+    image: "dryer-repair-technician-riyadh.jpg",
     date: { en: "June 2026", ar: "يونيو 2026" },
     title: { en: "Why Is My Dryer Not Heating Up?", ar: "لماذا لا تسخن نشافتي؟" },
     excerpt: {

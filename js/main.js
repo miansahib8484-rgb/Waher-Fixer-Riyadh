@@ -152,6 +152,7 @@
           <div class="service-card">
             <div class="service-card-image">
               <img src="${imgBase}${svc.image}" alt="${svc.title[lang]}" loading="lazy">
+              <span class="service-card-badge"><i class="bi bi-patch-check-fill"></i>${translations[lang].badge_certified}</span>
             </div>
             <div class="service-card-body">
               <h3 class="h5">${svc.title[lang]}</h3>
@@ -260,6 +261,8 @@
     { group: "wm", image: "repair-12-team-belt.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
     { group: "wm", image: "repair-13-truck-loading.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
     { group: "dw", image: "repair-07-control-board.jpg", label: { en: "Dishwasher", ar: "غسالة صحون" } },
+    { group: "dw", image: "dishwasher-repair-technician-riyadh.jpg", label: { en: "Dishwasher", ar: "غسالة صحون" } },
+    { group: "dr", image: "dryer-repair-technician-riyadh.jpg", label: { en: "Dryer", ar: "نشافة" } },
   ];
 
   function renderGallery(lang){
