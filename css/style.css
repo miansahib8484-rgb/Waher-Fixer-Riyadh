@@ -123,7 +123,7 @@ a{text-decoration:none;color:inherit;}
 }
 .btn-whatsapp:hover{background:#1cb355; color:var(--white);}
 
-.btn-sm-pill{border-radius:50px; padding:0.55rem 1.2rem; font-size:0.92rem;}
+.btn-sm-pill{border-radius:50px; padding:0.55rem 1.2rem; font-size:0.92rem; white-space:nowrap;}
 
 /* ---------- Navbar ---------- */
 .site-header{
@@ -170,6 +170,7 @@ html:not([dir="rtl"]) .navbar-brand-custom span:not(.brand-mark){
   font-weight:500;
   padding:0.5rem 0.9rem !important;
   position:relative;
+  white-space:nowrap;
 }
 .nav-link-custom.active,
 .nav-link-custom:hover{color:var(--white) !important;}
@@ -193,6 +194,14 @@ html:not([dir="rtl"]) .navbar-brand-custom span:not(.brand-mark){
 /* Always-visible lang switch next to the hamburger icon (mobile/tablet) */
 @media (min-width:992px){
   .mobile-lang-switch{display:none;}
+}
+
+/* Tighter spacing at "in-between" laptop widths so brand + 6 nav links +
+   switcher + Call button never get squeezed against each other. */
+@media (min-width:992px) and (max-width:1240px){
+  .nav-link-custom{padding:0.5rem 0.6rem !important; font-size:0.94rem;}
+  .navbar-brand-custom{font-size:1.05rem;}
+  .navbar-utility{gap:0.6rem !important;}
 }
 
 
@@ -239,7 +248,7 @@ html:not([dir="rtl"]) .navbar-brand-custom span:not(.brand-mark){
     linear-gradient(135deg, rgba(18,165,148,0.10) 0%, transparent 35%),
     linear-gradient(180deg, var(--navy-900) 0%, var(--navy-800) 100%);
   color:var(--white);
-  padding:6rem 0 5.5rem;
+  padding:3rem 0 5rem;
   overflow:hidden;
   position:relative;
   box-shadow:inset 0 -3px 0 rgba(18,165,148,0.35);

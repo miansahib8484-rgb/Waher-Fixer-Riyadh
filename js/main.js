@@ -371,6 +371,46 @@
     });
   }
 
+  /* ---------------- Language-switch scroll preservation ----------------
+     Switching EN <-> AR is a full page navigation (separate page trees),
+     so the browser normally lands at the top of the new page. When the
+     person deliberately switches language, keep them at the same scroll
+     position on the new page instead of jumping back to the top. Plain
+     navigation to a different page (nav links, buttons, etc.) is left
+     untouched and still starts at the top, as normal.
+  ------------------------------------------------------------------- */
+  function initLangSwitchScrollPreserve(){
+    document.querySelectorAll(".lang-switch a:not(.active)").forEach(link => {
+      link.addEventListener("click", function(e){
+        const href = this.getAttribute("href");
+        if (!href || href === "#") return;
+        e.preventDefault();
+        const y = Math.round(window.scrollY || window.pageYOffset || 0);
+        const url = new URL(href, window.location.href);
+        url.hash = "scrollY=" + y;
+        window.location.href = url.toString();
+      });
+    });
+  }
+
+  function restoreScrollFromHash(){
+    const hash = window.location.hash;
+    if (!hash.startsWith("#scrollY=")) return;
+    const y = parseInt(hash.slice("#scrollY=".length), 10);
+    if (isNaN(y)) return;
+    const applyScroll = () => window.scrollTo(0, y);
+    // Try right away, then again after images/layout settle.
+    applyScroll();
+    requestAnimationFrame(applyScroll);
+    window.addEventListener("load", applyScroll);
+    setTimeout(applyScroll, 300);
+    // Clean the hash out of the URL so it doesn't linger or get re-shared.
+    if (window.history && window.history.replaceState) {
+      const cleanUrl = window.location.pathname + window.location.search;
+      window.history.replaceState(null, "", cleanUrl);
+    }
+  }
+
   /* ---------------- Init ---------------- */
   document.addEventListener("DOMContentLoaded", () => {
     markActiveNav();
@@ -380,5 +420,7 @@
     renderStaticIllustrations();
     bindFaqToggle(document);
     observeReveals();
+    initLangSwitchScrollPreserve();
+    restoreScrollFromHash();
   });
 })();
