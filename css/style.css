@@ -148,6 +148,12 @@ html:not([dir="rtl"]) .navbar-brand-custom span:not(.brand-mark){
    only the brand text itself wraps internally; the collapse menu below
    still drops to its own line normally when opened on mobile. */
 .navbar-top-row{flex-wrap:nowrap;}
+/* Full-width only on mobile/tablet, where the collapse menu must drop to
+   its own line below. On desktop, navbar-top-row shares the row with the
+   nav links + switcher + Call button, so it must NOT stretch to 100%. */
+@media (max-width:991.98px){
+  .navbar-top-row{width:100%;}
+}
 .site-header .navbar-toggler,
 .site-header .navbar-toggler-custom{flex-shrink:0;}
 .navbar-top-row > .d-flex{flex-shrink:0;}
@@ -626,17 +632,33 @@ html[dir="rtl"] .guarantee-card::before{transform-origin:right;}
 
 /* ---------- Brands ---------- */
 .brand-chip{
-  background:var(--white); border:2px solid var(--card-border); border-radius:50px;
-  padding:0.7rem 1.6rem; font-weight:700; font-family:var(--font-en-head);
+  display:flex; align-items:center; gap:1rem;
+  background:var(--white); border:2px solid var(--card-border); border-radius:18px;
+  padding:0.75rem 1.4rem 0.75rem 0.9rem; font-weight:700; font-family:var(--font-en-head);
   color:var(--navy-900); font-size:1.05rem;
   box-shadow:0 2px 10px -8px rgba(11,30,51,0.14);
   transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease, color .2s ease;
 }
+html[dir="rtl"] .brand-chip{padding:0.75rem 0.9rem 0.75rem 1.4rem;}
 .brand-chip:hover{
   transform:translateY(-3px); border-color:var(--accent); color:var(--accent-dark);
   box-shadow:var(--shadow-soft);
 }
-#brandsGrid{display:flex; flex-wrap:wrap; gap:0.9rem; justify-content:center;}
+.brand-logo{
+  display:flex; align-items:center; justify-content:center; flex:0 0 auto;
+  width:150px; height:56px; padding-inline-end:1rem;
+  border-inline-end:1px solid var(--card-border);
+}
+.brand-logo img{max-width:100%; max-height:100%; width:auto; height:auto; object-fit:contain; display:block; border-radius:4px;}
+.brand-name{white-space:nowrap;}
+#brandsGrid{display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;}
+@media (max-width:575.98px){
+  #brandsGrid{display:grid; grid-template-columns:repeat(2,1fr); gap:0.75rem;}
+  .brand-chip,
+  html[dir="rtl"] .brand-chip{flex-direction:column; gap:0.55rem; padding:0.85rem 0.6rem; text-align:center; font-size:0.95rem;}
+  .brand-logo{width:100%; height:52px; padding-inline-end:0; border-inline-end:0;}
+  .brand-logo img{max-width:88%;}
+}
 
 /* ---------- Testimonials ---------- */
 .testimonial-card{

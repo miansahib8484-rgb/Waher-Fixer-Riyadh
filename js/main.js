@@ -97,8 +97,12 @@
   function renderBrands(lang){
     const container = document.getElementById("brandsGrid");
     if (!container || typeof brandsData === "undefined") return;
+    const imgBase = container.getAttribute("data-images-base") || "images/";
     container.innerHTML = brandsData.map(brand => `
-      <div class="brand-chip">${brand[lang]}</div>
+      <div class="brand-chip">
+        <span class="brand-logo"><img src="${imgBase}brands/${brand.logo}" alt="${brand[lang]}" loading="lazy" decoding="async"></span>
+        <span class="brand-name">${brand[lang]}</span>
+      </div>
     `).join("");
   }
 

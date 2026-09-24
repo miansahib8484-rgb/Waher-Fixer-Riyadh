@@ -549,19 +549,19 @@ const blogData = [
 ];
 
 /* =========================================================
-   Brands serviced — shown as text badges (no logo artwork).
+   Brands serviced — shown as cards with logo + name (logos in images/brands/).
    ========================================================= */
 const brandsData = [
-  { en: "Beko", ar: "بيكو" },
-  { en: "Daewoo", ar: "دايو" },
-  { en: "Panasonic", ar: "باناسونيك" },
-  { en: "LG", ar: "إل جي" },
-  { en: "Maytag", ar: "مايتاج" },
-  { en: "Hitachi", ar: "هيتاشي" },
-  { en: "Whirlpool", ar: "ويرلبول" },
-  { en: "Westinghouse", ar: "وستنجهاوس" },
-  { en: "Toshiba", ar: "توشيبا" },
-  { en: "Samsung", ar: "سامسونج" },
+  { en: "Beko", ar: "بيكو", logo: "beko.png" },
+  { en: "Daewoo", ar: "دايو", logo: "daewoo.png" },
+  { en: "Panasonic", ar: "باناسونيك", logo: "panasonic.png" },
+  { en: "LG", ar: "إل جي", logo: "lg.png" },
+  { en: "Maytag", ar: "مايتاج", logo: "maytag.png" },
+  { en: "Hitachi", ar: "هيتاشي", logo: "hitachi.png" },
+  { en: "Whirlpool", ar: "ويرلبول", logo: "whirlpool.png" },
+  { en: "Westinghouse", ar: "وستنجهاوس", logo: "westinghouse.png" },
+  { en: "Toshiba", ar: "توشيبا", logo: "toshiba.png" },
+  { en: "Samsung", ar: "سامسونج", logo: "samsung.png" },
 ];
 
 /* =========================================================
