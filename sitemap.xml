@@ -2,147 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://YOUR-DOMAIN.com/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/index.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/index.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/index.html"/>
+    <loc>https://www.siyana-riyadh.com/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/index.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/index.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/index.html"/>
+    <loc>https://www.siyana-riyadh.com/ar</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/services.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services.html"/>
+    <loc>https://www.siyana-riyadh.com/services</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/services.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/services</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/about.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/about.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/about.html"/>
+    <loc>https://www.siyana-riyadh.com/about</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/about"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/about.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/about.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/about.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/about.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/about</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/about"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/contact.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/contact.html"/>
+    <loc>https://www.siyana-riyadh.com/contact</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/contact"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/contact.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/contact.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/contact.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/contact</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/contact"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/contact"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/gallery.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/gallery.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/gallery.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/gallery.html"/>
+    <loc>https://www.siyana-riyadh.com/gallery</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/gallery"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/gallery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/gallery"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/gallery.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/gallery.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/gallery.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/gallery.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/gallery</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/gallery"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/gallery"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/gallery"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/blog.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog.html"/>
+    <loc>https://www.siyana-riyadh.com/blog</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/blog.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/blog</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/automatic-washing-machine-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/services/automatic-washing-machine-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services/automatic-washing-machine-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services/automatic-washing-machine-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services/automatic-washing-machine-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/services/automatic-washing-machine-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/automatic-washing-machine-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/automatic-washing-machine-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/services/automatic-washing-machine-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services/automatic-washing-machine-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services/automatic-washing-machine-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services/automatic-washing-machine-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/services/dishwasher-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dishwasher-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/services/dishwasher-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services/dishwasher-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services/dishwasher-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services/dishwasher-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/services/dishwasher-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dishwasher-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dishwasher-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/services/dishwasher-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services/dishwasher-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services/dishwasher-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services/dishwasher-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/services/dryer-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dryer-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/services/dryer-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services/dryer-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services/dryer-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services/dryer-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/services/dryer-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/services/dryer-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/services/dryer-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/services/dryer-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/services/dryer-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/services/dryer-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/services/dryer-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/signs-washing-machine-needs-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/blog/signs-washing-machine-needs-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog/signs-washing-machine-needs-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog/signs-washing-machine-needs-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog/signs-washing-machine-needs-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/blog/signs-washing-machine-needs-repair.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/signs-washing-machine-needs-repair.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/signs-washing-machine-needs-repair.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/blog/signs-washing-machine-needs-repair</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog/signs-washing-machine-needs-repair"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog/signs-washing-machine-needs-repair"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog/signs-washing-machine-needs-repair"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/dishwasher-cleaning-maintenance.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
+    <loc>https://www.siyana-riyadh.com/blog/dishwasher-cleaning-maintenance</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog/dishwasher-cleaning-maintenance"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog/dishwasher-cleaning-maintenance"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog/dishwasher-cleaning-maintenance"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/blog/dishwasher-cleaning-maintenance.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/dishwasher-cleaning-maintenance.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/dishwasher-cleaning-maintenance.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/blog/dishwasher-cleaning-maintenance</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog/dishwasher-cleaning-maintenance"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog/dishwasher-cleaning-maintenance"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog/dishwasher-cleaning-maintenance"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/why-is-my-dryer-not-heating.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
+    <loc>https://www.siyana-riyadh.com/blog/why-is-my-dryer-not-heating</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog/why-is-my-dryer-not-heating"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog/why-is-my-dryer-not-heating"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog/why-is-my-dryer-not-heating"/>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.com/ar/blog/why-is-my-dryer-not-heating.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://YOUR-DOMAIN.com/ar/blog/why-is-my-dryer-not-heating.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-DOMAIN.com/blog/why-is-my-dryer-not-heating.html"/>
+    <loc>https://www.siyana-riyadh.com/ar/blog/why-is-my-dryer-not-heating</loc>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.siyana-riyadh.com/blog/why-is-my-dryer-not-heating"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.siyana-riyadh.com/ar/blog/why-is-my-dryer-not-heating"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.siyana-riyadh.com/blog/why-is-my-dryer-not-heating"/>
   </url>
 </urlset>

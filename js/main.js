@@ -38,14 +38,24 @@
   }
 
   /* ---------------- Nav active state ---------------- */
+  function normPath(p){
+    // "/services/dryer-repair/" , "/services/dryer-repair.html" -> "/services/dryer-repair"; "/" stays "/"
+    p = (p || "/").split(/[?#]/)[0].replace(/\/index(\.html)?$/, "/").replace(/\.html$/, "");
+    return p.length > 1 ? p.replace(/\/+$/, "") : "/";
+  }
+
   function markActiveNav(){
-    const path = window.location.pathname.split("/").pop() || "index.html";
+    const path = normPath(window.location.pathname);
     document.querySelectorAll(".nav-link-custom").forEach(link => {
-      const href = (link.getAttribute("href") || "").split("/").pop();
-      if (href === path || (path === "" && href === "index.html")) {
+      if (normPath(link.getAttribute("href")) === path) {
         link.classList.add("active");
       }
     });
+  }
+
+  // Root-absolute clean URL for the current page language (no .html)
+  function pageUrl(lang, path){
+    return (lang === "ar" ? "/ar" : "") + path;
   }
 
   /* ---------------- Mobile nav collapse-on-click ---------------- */
@@ -149,7 +159,6 @@
   function renderServiceCards(lang){
     document.querySelectorAll("[data-render='service-cards']").forEach(container => {
       const entries = Object.values(servicesData);
-      const svcBase = container.getAttribute("data-services-base") || "services/";
       const imgBase = container.getAttribute("data-images-base") || "images/";
       container.innerHTML = entries.map(svc => `
         <div class="col-md-6 col-lg-4 reveal">
@@ -162,7 +171,7 @@
               <h3 class="h5">${svc.title[lang]}</h3>
               <p class="text-muted-2">${svc.shortDesc[lang]}</p>
               <div class="card-links">
-                <a class="btn btn-outline-navy btn-sm-pill" href="${svcBase}${svc.slug}.html">
+                <a class="btn btn-outline-navy btn-sm-pill" href="${pageUrl(lang, "/services/" + svc.slug)}">
                   ${translations[lang].svc_view}
                 </a>
                 <a class="btn btn-accent btn-sm-pill" href="https://wa.me/966591161916" target="_blank" rel="noopener">
@@ -232,7 +241,7 @@
     const others = Object.entries(servicesData).filter(([key]) => key !== current);
     container.innerHTML = others.map(([key, svc]) => `
       <div class="col-md-6">
-        <a class="related-card d-block reveal" href="${svc.slug}.html">
+        <a class="related-card d-block reveal" href="${pageUrl(lang, "/services/" + svc.slug)}">
           <div class="related-card-image">
             <img src="${imgBase}${svc.image}" alt="${svc.title[lang]}" loading="lazy">
           </div>
@@ -305,11 +314,10 @@
   function renderBlogPreview(lang){
     const container = document.getElementById("blogPreview");
     if (!container || typeof blogData === "undefined") return;
-    const base = container.getAttribute("data-blog-base") || "blog/";
     const imgBase = container.getAttribute("data-images-base") || "images/";
     container.innerHTML = blogData.slice(0, 3).map(post => `
       <div class="col-md-4 reveal">
-        <a href="${base}${post.slug}.html" class="blog-card d-block h-100">
+        <a href="${pageUrl(lang, "/blog/" + post.slug)}" class="blog-card d-block h-100">
           <div class="blog-thumb"><img src="${imgBase}${post.image}" alt="${post.title[lang]}" loading="lazy"></div>
           <div class="p-4">
             <div class="blog-meta mb-2">${post.date[lang]}</div>
@@ -328,7 +336,7 @@
     const imgBase = container.getAttribute("data-images-base") || "images/";
     container.innerHTML = blogData.map(post => `
       <div class="col-md-4 reveal">
-        <a href="${post.slug}.html" class="blog-card d-block h-100">
+        <a href="${pageUrl(lang, "/blog/" + post.slug)}" class="blog-card d-block h-100">
           <div class="blog-thumb"><img src="${imgBase}${post.image}" alt="${post.title[lang]}" loading="lazy"></div>
           <div class="p-4">
             <div class="blog-meta mb-2">${post.date[lang]}</div>
