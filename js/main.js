@@ -164,7 +164,7 @@
         <div class="col-md-6 col-lg-4 reveal">
           <div class="service-card">
             <div class="service-card-image">
-              <img src="${imgBase}${svc.image}" alt="${svc.title[lang]}" loading="lazy">
+              <img src="${imgBase}${svc.image}" alt="${svc.title[lang]}" ${imgAttrs(svc.image, "(max-width:576px) 100vw,(max-width:992px) 50vw,33vw", imgBase)} loading="lazy">
               <span class="service-card-badge"><i class="bi bi-patch-check-fill"></i>${translations[lang].badge_certified}</span>
             </div>
             <div class="service-card-body">
@@ -204,7 +204,7 @@
     const svc = servicesData[key];
     const t = translations[lang];
 
-    setText("svcTitle", svc.title[lang]);
+    setText("svcTitle", (svc.h1 || svc.title)[lang]);
     setText("svcIntro", svc.intro[lang]);
     setText("svcShort", svc.shortDesc[lang]);
     setText("bcCurrent", svc.title[lang]);
@@ -227,6 +227,31 @@
       `).join("");
     }
 
+    const guideEl = document.getElementById("svcGuide");
+    if (guideEl && svc.guide) {
+      guideEl.innerHTML = svc.guide[lang].map(g => `
+        <div class="mb-4">
+          <h3 class="h5 mb-2">${g.h}</h3>
+          <p class="text-muted-2 mb-0">${g.p}</p>
+        </div>
+      `).join("");
+    }
+    const faqEl = document.getElementById("svcFaq");
+    if (faqEl && svc.faq) {
+      faqEl.innerHTML = svc.faq[lang].map((item, i) => `
+        <div class="faq-item${i===0 ? " open" : ""}">
+          <button class="faq-question" type="button" aria-expanded="${i===0}">
+            <span>${item.q}</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <div class="faq-answer"${i===0 ? ' style="max-height:400px"' : ""}>
+            <p>${item.a}</p>
+          </div>
+        </div>
+      `).join("");
+      bindFaqToggle(faqEl);
+    }
+
     document.querySelectorAll("[data-i18n-service]").forEach(el => {
       const field = el.getAttribute("data-i18n-service");
       if (t[field]) el.textContent = t[field];
@@ -243,9 +268,9 @@
       <div class="col-md-6">
         <a class="related-card d-block reveal" href="${pageUrl(lang, "/services/" + svc.slug)}">
           <div class="related-card-image">
-            <img src="${imgBase}${svc.image}" alt="${svc.title[lang]}" loading="lazy">
+            <img src="${imgBase}${svc.image}" alt="${svc.title[lang]}" ${imgAttrs(svc.image, "(max-width:576px) 100vw,(max-width:992px) 50vw,33vw", imgBase)} loading="lazy">
           </div>
-          <h4 class="h6 mb-1 mt-3">${svc.title[lang]}</h4>
+          <h3 class="h6 mb-1 mt-3">${svc.title[lang]}</h3>
           <p class="text-muted-2 mb-0 small">${svc.shortDesc[lang]}</p>
         </a>
       </div>
@@ -260,23 +285,37 @@
 
   /* ---------------- Gallery ---------------- */
   const galleryItems = [
-    { group: "wm", image: "hero-technician-front-load.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "wm", image: "hero-technician-dryer.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "wm", image: "repair-01-drum-closeup.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "wm", image: "repair-03-wiring-test.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "dw", image: "repair-04-dishwasher-pliers.jpg", label: { en: "Dishwasher", ar: "غسالة صحون" } },
-    { group: "wm", image: "repair-06-sunlit-shop.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "dr", image: "repair-02-dryer-filter.jpg", label: { en: "Dryer", ar: "نشافة" } },
-    { group: "wm", image: "repair-08-team-drum.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "wm", image: "repair-09-workshop-wide.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "dr", image: "repair-10-portrait-dryer.jpg", label: { en: "Dryer", ar: "نشافة" } },
-    { group: "wm", image: "repair-11-chassis-repair.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "wm", image: "repair-12-team-belt.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "wm", image: "repair-13-truck-loading.jpg", label: { en: "Washing Machine", ar: "غسالة" } },
-    { group: "dw", image: "repair-07-control-board.jpg", label: { en: "Dishwasher", ar: "غسالة صحون" } },
-    { group: "dw", image: "dishwasher-repair-technician-riyadh.jpg", label: { en: "Dishwasher", ar: "غسالة صحون" } },
-    { group: "dr", image: "dryer-repair-technician-riyadh.jpg", label: { en: "Dryer", ar: "نشافة" } },
+    { group: "wm", image: "hero-technician-front-load.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "wm", image: "hero-technician-dryer.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "wm", image: "repair-01-drum-closeup.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "wm", image: "repair-03-wiring-test.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "dw", image: "repair-04-dishwasher-pliers.webp", label: { en: "Dishwasher", ar: "غسالة صحون" } },
+    { group: "wm", image: "repair-06-sunlit-shop.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "dr", image: "repair-02-dryer-filter.webp", label: { en: "Dryer", ar: "نشافة" } },
+    { group: "wm", image: "repair-08-team-drum.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "wm", image: "repair-09-workshop-wide.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "dr", image: "repair-10-portrait-dryer.webp", label: { en: "Dryer", ar: "نشافة" } },
+    { group: "wm", image: "repair-11-chassis-repair.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "wm", image: "repair-12-team-belt.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "wm", image: "repair-13-truck-loading.webp", label: { en: "Washing Machine", ar: "غسالة" } },
+    { group: "dw", image: "repair-07-control-board.webp", label: { en: "Dishwasher", ar: "غسالة صحون" } },
+    { group: "dw", image: "dishwasher-repair-technician-riyadh.webp", label: { en: "Dishwasher", ar: "غسالة صحون" } },
+    { group: "dr", image: "dryer-repair-technician-riyadh.webp", label: { en: "Dryer", ar: "نشافة" } },
   ];
+
+  const imgInfo = {"dishwasher-repair-technician-riyadh": {"w": 1312, "h": 1199, "v": [480, 800]}, "dryer-repair-technician-riyadh": {"w": 1400, "h": 933, "v": [480, 800]}, "hero-technician-dryer": {"w": 900, "h": 900, "v": [480]}, "hero-technician-front-load": {"w": 900, "h": 900, "v": [480]}, "repair-01-drum-closeup": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-02-dryer-filter": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-03-wiring-test": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-04-dishwasher-pliers": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-05-storefront-back": {"w": 899, "h": 1599, "v": [480]}, "repair-06-sunlit-shop": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-07-control-board": {"w": 899, "h": 1599, "v": [480]}, "repair-08-team-drum": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-09-workshop-wide": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-10-portrait-dryer": {"w": 436, "h": 672, "v": []}, "repair-11-chassis-repair": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-12-team-belt": {"w": 1200, "h": 1600, "v": [480, 800]}, "repair-13-truck-loading": {"w": 1200, "h": 1600, "v": [480, 800]}};
+  function imgAttrs(file, sizes, base){
+    const m = /^([A-Za-z0-9_-]+)\.webp$/.exec(file || "");
+    const i = m && imgInfo[m[1]];
+    if (!i) return "";
+    let out = `width="${i.w}" height="${i.h}"`;
+    if (i.v.length) {
+      const ss = i.v.map(w => `${base}${m[1]}-${w}.webp ${w}w`).concat(`${base}${file} ${i.w}w`).join(", ");
+      out += ` srcset="${ss}" sizes="${sizes}"`;
+    }
+    return out;
+  }
+  const galleryAlt = {"repair-01-drum-closeup.webp": {"en": "Technician working on a washing machine drum in the repair workshop", "ar": "فني يعمل على حوض غسالة في ورشة الصيانة"}, "repair-02-dryer-filter.webp": {"en": "Technician checking a front-load machine in the workshop", "ar": "فني يفحص غسالة أمامية في الورشة"}, "repair-04-dishwasher-pliers.webp": {"en": "Technician repairing a home appliance in the workshop", "ar": "فني يصلح جهازاً منزلياً في الورشة"}, "repair-05-storefront-back.webp": {"en": "Technician working beside washing machines at the shop front", "ar": "فني يعمل بجانب غسالات عند واجهة المحل"}, "repair-06-sunlit-shop.webp": {"en": "Technician repairing a front-load washing machine by the shop window", "ar": "فني يصلح غسالة أمامية قرب واجهة المحل"}, "repair-07-control-board.webp": {"en": "Technician working on a machine in the repair workshop", "ar": "فني يعمل على جهاز في ورشة الصيانة"}, "repair-09-workshop-wide.webp": {"en": "Repair workshop with several washing machines and a technician at work", "ar": "ورشة صيانة فيها عدة غسالات وفني أثناء العمل"}, "repair-12-team-belt.webp": {"en": "Technicians repairing a washing machine at the shop front", "ar": "فنيان يصلحان غسالة عند واجهة المحل"}};
 
   function renderGallery(lang){
     const grid = document.getElementById("galleryGrid");
@@ -285,7 +324,7 @@
     grid.innerHTML = galleryItems.map(item => `
       <div class="col-6 col-md-4 gallery-col reveal" data-group="${item.group}">
         <div class="gallery-item">
-          <img src="${imgBase}${item.image}" alt="${item.label[lang]}" loading="lazy">
+          <img src="${imgBase}${item.image}" alt="${(galleryAlt[item.image] || item.label)[lang]}" ${imgAttrs(item.image, "(max-width:576px) 100vw,(max-width:992px) 50vw,25vw", imgBase)} loading="lazy">
           <span class="tag">${item.label[lang]}</span>
         </div>
       </div>
@@ -318,7 +357,7 @@
     container.innerHTML = blogData.slice(0, 3).map(post => `
       <div class="col-md-4 reveal">
         <a href="${pageUrl(lang, "/blog/" + post.slug)}" class="blog-card d-block h-100">
-          <div class="blog-thumb"><img src="${imgBase}${post.image}" alt="${post.title[lang]}" loading="lazy"></div>
+          <div class="blog-thumb"><img src="${imgBase}${post.image}" alt="${post.title[lang]}" ${imgAttrs(post.image, "(max-width:576px) 100vw,(max-width:992px) 50vw,33vw", imgBase)} loading="lazy"></div>
           <div class="p-4">
             <div class="blog-meta mb-2">${post.date[lang]}</div>
             <h3 class="h6">${post.title[lang]}</h3>
@@ -337,7 +376,7 @@
     container.innerHTML = blogData.map(post => `
       <div class="col-md-4 reveal">
         <a href="${pageUrl(lang, "/blog/" + post.slug)}" class="blog-card d-block h-100">
-          <div class="blog-thumb"><img src="${imgBase}${post.image}" alt="${post.title[lang]}" loading="lazy"></div>
+          <div class="blog-thumb"><img src="${imgBase}${post.image}" alt="${post.title[lang]}" ${imgAttrs(post.image, "(max-width:576px) 100vw,(max-width:992px) 50vw,33vw", imgBase)} loading="lazy"></div>
           <div class="p-4">
             <div class="blog-meta mb-2">${post.date[lang]}</div>
             <h3 class="h6">${post.title[lang]}</h3>
@@ -373,13 +412,28 @@
       e.preventDefault();
       const lang = getLang();
       const feedback = document.getElementById("formFeedback");
-      if (feedback) {
-        feedback.textContent = lang === "ar"
-          ? "شكرًا لك! تم استلام طلبك وسنتواصل معك قريبًا."
-          : "Thank you! Your request has been received — we'll be in touch shortly.";
+      const val = id => ((document.getElementById(id) || {}).value || "").trim();
+      const sel = document.getElementById("fAppliance");
+      const appliance = sel && sel.selectedIndex > 0 ? sel.options[sel.selectedIndex].text : "";
+      const show = (html, ok) => {
+        if (!feedback) return;
+        feedback.innerHTML = html;
         feedback.classList.remove("d-none");
+        feedback.classList.toggle("alert-success", ok);
+        feedback.classList.toggle("alert-warning", !ok);
+      };
+      if (!val("fName") || !val("fPhone") || !appliance) {
+        show(lang === "ar" ? "يرجى إدخال الاسم ورقم الجوال ونوع الجهاز." : "Please enter your name, phone number and appliance type.", false);
+        return;
       }
-      form.reset();
+      const lines = lang === "ar"
+        ? ["مرحباً، أريد حجز زيارة صيانة.", "الاسم: " + val("fName"), "الجوال: " + val("fPhone"), "الجهاز: " + appliance, "المشكلة: " + (val("fMessage") || "-")]
+        : ["Hello, I'd like to book a repair visit.", "Name: " + val("fName"), "Phone: " + val("fPhone"), "Appliance: " + appliance, "Problem: " + (val("fMessage") || "-")];
+      const url = "https://wa.me/966591161916?text=" + encodeURIComponent(lines.join("\n"));
+      show(lang === "ar"
+        ? 'سنفتح واتساب لإرسال طلبك. إن لم يفتح، <a href="' + url + '" target="_blank" rel="noopener">اضغط هنا</a>.'
+        : 'We are opening WhatsApp so you can send your request. If it does not open, <a href="' + url + '" target="_blank" rel="noopener">tap here</a>.', true);
+      window.open(url, "_blank", "noopener");
     });
   }
 

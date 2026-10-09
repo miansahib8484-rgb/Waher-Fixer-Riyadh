@@ -484,7 +484,7 @@ html[dir="rtl"] .link-arrow:hover i{transform:translateX(-3px);}
 
 /* ---------- Footer ---------- */
 .site-footer{background:var(--navy-900); color:rgba(255,255,255,0.75); padding-top:3.5rem;}
-.site-footer h6{color:#fff; font-weight:700; margin-bottom:1.1rem;}
+.site-footer h6, .site-footer h3.h6{color:#fff; font-weight:700; margin-bottom:1.1rem;}
 .site-footer a{color:rgba(255,255,255,0.72);}
 .site-footer a:hover{color:var(--accent);}
 .footer-bottom{border-top:1px solid rgba(255,255,255,0.08); margin-top:2.5rem; padding:1.25rem 0 6rem; font-size:0.85rem;}
@@ -783,3 +783,8 @@ a:focus-visible, button:focus-visible, .form-control:focus-visible{
 @media (max-width:991.98px){
   .sticky-cta{position:static;}
 }
+
+/* ---- Arabic typography: no letter-spacing (breaks cursive joins), Tajawal for brand/display text ---- */
+html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] h4,
+html[lang="ar"] .display-font, html[lang="ar"] .service-card-badge{letter-spacing:0; text-transform:none;}
+html[lang="ar"] .navbar-brand-custom, html[lang="ar"] .display-font{font-family:var(--font-ar);}
