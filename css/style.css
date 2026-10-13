@@ -788,3 +788,6 @@ a:focus-visible, button:focus-visible, .form-control:focus-visible{
 html[lang="ar"] h1, html[lang="ar"] h2, html[lang="ar"] h3, html[lang="ar"] h4,
 html[lang="ar"] .display-font, html[lang="ar"] .service-card-badge{letter-spacing:0; text-transform:none;}
 html[lang="ar"] .navbar-brand-custom, html[lang="ar"] .display-font{font-family:var(--font-ar);}
+
+.skip-link{position:absolute;left:-9999px;top:0;background:#0b3d91;color:#fff;padding:.6rem 1rem;z-index:2000;border-radius:0 0 .5rem .5rem;text-decoration:none}
+.skip-link:focus{left:.5rem;top:.5rem;color:#fff}

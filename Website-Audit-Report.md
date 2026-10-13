@@ -1,5 +1,5 @@
 # Website Audit Report: www.siyana-riyadh.com (Automatic Washing Machine Repair, Riyadh)
-Audit date: 2026-10-07 · Scope: 66 pages (33 English + 33 Arabic under /ar) + 404 · Method: full crawl of the build files, rendered-DOM runs (jsdom), schema validator, and live fetches of 3 live URLs.
+Audit date: 2026-10-08 · Scope: 66 pages (33 English + 33 Arabic under /ar) + 404 · Method: full crawl of the build files, rendered-DOM runs (jsdom), schema validator, and live fetches of 3 live URLs.
 
 **Verification rules followed.** Every number below was measured in this audit. Where a signal could not be measured it is marked "Unable to verify from crawl data". No Lighthouse, PageSpeed, Search Console, Analytics, backlink or ranking data was available.
 
@@ -90,7 +90,7 @@ Audit date: 2026-10-07 · Scope: 66 pages (33 English + 33 Arabic under /ar) + 4
 - Why it matters: The submit handler in js/main.js called preventDefault(), reset the form and showed "Thank you! Your request has been received", but sent the data nowhere.
 - SEO impact: No direct ranking effect, but it breaks the conversion funnel that SEO and Ads traffic depend on.
 - User impact: Users believed a request was submitted; it was lost.
-- Exact fix: Replaced with a handler that validates name, phone and appliance, builds a WhatsApp message to +966 59 116 1916 and opens it (with a tap-here fallback link). Removed the duplicate "Service Required" select that repeated "Appliance Type". Tested in a rendered DOM: empty form shows an error, a filled form opens the correct wa.me link in EN and AR.
+- Exact fix: Replaced with a handler that validates name, phone and appliance, builds a WhatsApp message to +966 59 116 1916 and opens it (with a tap-here fallback link). Removed the duplicate "Service Required" select that repeated "Machine Type". Tested in a rendered DOM: empty form shows an error, a filled form opens the correct wa.me link in EN and AR.
 - Priority: P0
 - Status: FIXED in build
 
@@ -137,7 +137,7 @@ Verified: all titles unique and 62 characters or less; meta descriptions 131-159
 - Why it matters: Both titles used the same words ("Washing Machine, Dishwasher & Dryer Repair"), a cannibalization risk for the same query.
 - SEO impact: Two pages competing for one phrase.
 - User impact: None.
-- Exact fix: Home title is now "Appliance Repair in Riyadh: Washers, Dishwashers & Dryers"; Services title is "Our Repair Services: Washing Machine, Dishwasher, Dryer". Token overlap fell to below the 0.6 flag threshold for these two pages.
+- Exact fix: Home title is now "Automatic Washing Machine Repair in Riyadh | Dishwasher, Dryer"; Services title is "Our Repair Services: Washing Machine, Dishwasher, Dryer". Token overlap fell to below the 0.6 flag threshold for these two pages.
 - Priority: P2
 - Status: FIXED in build
 
@@ -168,7 +168,7 @@ Entity coverage against an auditor-defined part list: washing-machine pillar 100
 Readability: average sentence length 11-20 words on the pages measured; 0-29% of sentences exceed 25 words.
 ### 9. Thin pages
 - Severity: High
-- Affected pages: Informational pages under 350 words: ar/blog/dishwasher-cleaning-maintenance.html (337); ar/blog/appliance-maintenance-checklist-riyadh.html (342); ar/blog/why-is-my-dryer-not-heating.html (345); ar/blog/lg-vs-samsung-washing-machine-common-issues.html (348). Utility pages (not counted as content gaps): gallery.html (81); ar/contact.html (106); ar/gallery.html (106); contact.html (108); ar/services.html (159); services.html (176); ar/about.html (180); about.html (227); ar/blog.html (264); blog.html (318)
+- Affected pages: Informational pages under 350 words: ar/blog/dishwasher-cleaning-maintenance.html (337); ar/blog/washer-dishwasher-dryer-maintenance-checklist-riyadh.html (345); ar/blog/why-is-my-dryer-not-heating.html (345). Utility pages (not counted as content gaps): gallery.html (86); ar/contact.html (106); ar/gallery.html (107); contact.html (108); ar/services.html (160); ar/about.html (179); services.html (181); about.html (235); ar/blog.html (264); blog.html (318)
 - Why it matters: These pages state facts but offer little depth beyond them, so they cover fewer related questions and entities than a full guide would. The older blog posts end without a worked example, a comparison table or a summary.
 - SEO impact: Lower topical depth for the article cluster; the pillar and symptom pages are not affected.
 - User impact: Short answers leave questions unanswered.

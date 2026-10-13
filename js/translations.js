@@ -18,9 +18,9 @@ const translations = {
     brand_name: "Automatic Washing Machine Repair",
 
     /* ---- Home ---- */
-    hero_tag: "Riyadh · Home Appliance Repair",
-    hero_title: "Professional Home Appliance Repair in Riyadh",
-    hero_desc: "Fast, reliable repair for automatic washing machines, dishwashers and dryers — trusted technicians who come to your door across Riyadh.",
+    hero_tag: "Riyadh · Automatic Washing Machine Repair",
+    hero_title: "Automatic Washing Machine Repair in Riyadh",
+    hero_desc: "Your automatic washing machine won't drain, won't spin, or just won't start? We send a technician to your door anywhere in Riyadh. He finds the real fault, tells you the cost, and only then picks up a screwdriver. We fix dishwashers and dryers too.",
     hero_cta_book: "Book a Repair",
     hero_cta_call: "Call Now",
     hero_cta_whatsapp: "WhatsApp Us",
@@ -34,64 +34,64 @@ const translations = {
     trust_4: "Riyadh Service Coverage",
 
     services_tag: "What We Repair",
-    services_title: "Our Appliance Repair Services",
-    services_sub: "Three focused specialities, done properly — not a jack-of-all-trades list.",
+    services_title: "Our Repair Services: Washing Machines, Dishwashers, Dryers",
+    services_sub: "Three machines, and we know them well. We would rather do these properly than promise to fix everything.",
     svc_view: "View Service",
     svc_book: "Book a Service",
     badge_certified: "Certified Repair",
 
     why_tag: "Why Riyadh Trusts Us",
-    why_title: "Built Around Honest, Careful Repair Work",
+    why_title: "How We Work",
     why_1_t: "Professional Technicians",
-    why_1_d: "Trained specialists who diagnose the real fault before touching a screwdriver.",
+    why_1_d: "We find the real fault first. No swapping parts and hoping for the best.",
     why_2_t: "Quick Response",
-    why_2_d: "We schedule visits fast, so your appliance isn't out of action for long.",
+    why_2_d: "We book visits quickly, so you are not without your machine for long.",
     why_3_t: "Transparent Service",
-    why_3_d: "You hear the diagnosis and the cost before any repair work begins.",
+    why_3_d: "You hear what is wrong and what it will cost before any repair starts. Nothing begins until you say yes.",
     why_4_t: "Quality Repairs",
-    why_4_d: "Proper parts and correct technique, so the same fault doesn't return.",
+    why_4_d: "The right parts and proper technique, so the same problem does not come back a month later.",
     why_5_t: "Customer-Focused Support",
-    why_5_d: "Clear communication from first call to finished repair.",
+    why_5_d: "Straight answers, from the first call to the finished repair.",
     why_6_t: "Service Across Riyadh",
-    why_6_d: "On-site visits to homes across Riyadh and surrounding neighborhoods.",
+    why_6_d: "We come to your home across Riyadh and the neighborhoods around it.",
 
     how_tag: "Simple Process",
     how_title: "How It Works",
     how_1_t: "Contact Us",
     how_1_d: "Call, WhatsApp or fill the booking form.",
     how_2_t: "Tell Us the Problem",
-    how_2_d: "Describe the appliance and the fault you're seeing.",
+    how_2_d: "Tell us the brand, the model if you know it, and what the machine is doing.",
     how_3_t: "Technician Visits",
-    how_3_d: "A technician comes to your location in Riyadh.",
-    how_4_t: "Appliance Gets Repaired",
-    how_4_d: "Fixed on-site with a clear explanation of the work done.",
+    how_3_d: "A technician comes to your address in Riyadh.",
+    how_4_t: "Machine Gets Repaired",
+    how_4_d: "The repair is done on site, and you hear what was done and why.",
 
     gallery_tag: "Our Work",
     gallery_title: "Recent Repairs Around Riyadh",
-    gallery_sub: "A look at real jobs — washing machines, dishwashers and dryers back in working order.",
+    gallery_sub: "A look at the workshop and real jobs: washing machines, dishwashers and dryers back in working order.",
     gallery_view_all: "View Full Gallery",
     gallery_filter_all: "All",
     gallery_filter_wm: "Washing Machines",
     gallery_filter_dw: "Dishwashers",
     gallery_filter_dr: "Dryers",
 
-    area_title: "Appliance Repair Services Across Riyadh",
-    area_desc: "We serve customers in Al Yarmuk and across Riyadh's surrounding neighborhoods, with technicians dispatched to your location for on-site diagnosis and repair.",
+    area_title: "Washing Machine Repair Across Riyadh",
+    area_desc: "We work across Riyadh from our base in Al Yarmuk, covering the neighborhoods around it and further out. A technician comes to your address and diagnoses the fault right there.",
 
     faq_tag: "Common Questions",
     faq_title: "Frequently Asked Questions",
 
-    final_cta_title: "Need Appliance Repair in Riyadh?",
-    final_cta_desc: "Contact our team today to arrange a professional repair visit.",
+    final_cta_title: "Need a Washing Machine Repaired in Riyadh?",
+    final_cta_desc: "Call or message us, tell us what is wrong, and we will arrange a visit.",
     final_cta_contact: "Contact Us",
 
     blog_home_tag: "From the Blog",
-    blog_home_title: "Appliance Care Tips",
+    blog_home_title: "Washer, Dishwasher and Dryer Care Tips",
     blog_home_view_all: "View All Articles",
     blog_read_more: "Read More",
 
     /* ---- Footer ---- */
-    footer_desc: "Local home appliance repair for Riyadh — automatic washing machines, dishwashers and dryers, fixed properly by technicians who visit your home.",
+    footer_desc: "Local home appliance repair for Riyadh, automatic washing machines, dishwashers and dryers, fixed properly by technicians who visit your home.",
     footer_quick_links: "Quick Links",
     footer_services: "Services",
     footer_contact: "Contact",
@@ -104,31 +104,31 @@ const translations = {
 
     /* ---- Services listing page ---- */
     services_page_tag: "Services",
-    services_page_title: "Home Appliance Repair Services in Riyadh",
-    services_page_sub: "Choose an appliance below to see common faults, what we repair, and how the visit works.",
+    services_page_title: "Washing Machine, Dishwasher and Dryer Repair in Riyadh",
+    services_page_sub: "Pick the machine you are having trouble with to see the usual faults, what we do about them and how a visit works.",
 
     /* ---- About page ---- */
     about_tag: "About Us",
-    about_title: "Local Appliance Repair, Done Right",
-    about_intro: "We started this service to give Riyadh households a straightforward alternative to guesswork appliance repair — a washing machine technician in Riyadh who diagnoses properly, explains clearly, and fixes the appliance so the same problem doesn't come back.",
+    about_title: "Local Washing Machine Repair, Done Right",
+    about_intro: "We started this because appliance repair in Riyadh too often felt like guesswork: someone opens the machine, swaps a part and hopes. We wanted to be the washing machine technician who finds the actual fault, explains it in plain words, and fixes it so it stays fixed.",
     about_mission_tag: "Our Mission",
     about_mission_title: "Keep Riyadh Homes Running Smoothly",
-    about_mission_desc: "We focus on three appliances — automatic washing machines, dishwashers and dryers — so our technicians stay genuinely specialised rather than spread thin across everything.",
+    about_mission_desc: "We only work on three things: automatic washing machines, dishwashers and dryers. Doing less means we know these machines properly, instead of being average at everything.",
     about_choose_tag: "Why Customers Choose Us",
     about_choose_title: "What Sets Our Service Apart",
     about_approach_tag: "Our Approach",
     about_approach_title: "A Professional Repair Approach",
-    about_approach_desc: "Every visit starts with a proper diagnosis, a clear explanation of the fault, and an honest cost before any work begins. We use the correct parts and technique for the appliance in front of us, not a generic fix.",
+    about_approach_desc: "Every visit starts the same way. We look at the machine, work out what has really failed, tell you in plain words and give you the cost before any work begins. Then we use the right parts and technique for the machine in front of us.",
     about_coverage_tag: "Coverage",
     about_coverage_title: "Riyadh Service Coverage",
-    about_coverage_desc: "We visit homes across Riyadh and the surrounding neighborhoods for on-site diagnosis and repair — no need to transport the appliance anywhere.",
-    about_cta_title: "Ready to Get Your Appliance Fixed?",
-    about_cta_desc: "Reach out and we'll arrange a technician visit at a time that works for you.",
+    about_coverage_desc: "We visit homes across Riyadh and the neighborhoods around it. Most repairs are done at your home, so there is nothing to carry.",
+    about_cta_title: "Ready to Get Your Washing Machine Fixed?",
+    about_cta_desc: "Get in touch and we will find a time that suits you.",
 
     /* ---- Contact page ---- */
     contact_tag: "Get In Touch",
     contact_title: "Contact Us",
-    contact_sub: "Send us your details and the appliance issue — we'll get back to you to arrange a visit.",
+    contact_sub: "Leave your name, your number and what the machine is doing, and we will get back to you to arrange a visit. If it is leaking right now, call us instead.",
     form_name: "Full Name",
     form_phone: "Phone Number",
     form_appliance: "Appliance Type",
@@ -150,12 +150,12 @@ const translations = {
 
     /* ---- Gallery page ---- */
     gallery_page_tag: "Our Work",
-    gallery_page_title: "Appliance Repair Gallery",
-    gallery_page_sub: "A visual look at recent washing machine, dishwasher and dryer repairs completed across Riyadh.",
+    gallery_page_title: "Washing Machine Repair Gallery",
+    gallery_page_sub: "A look at recent washing machine, dishwasher and dryer repairs around Riyadh.",
 
     /* ---- Blog page ---- */
     blog_page_tag: "Blog",
-    blog_page_title: "Appliance Care & Repair Tips",
+    blog_page_title: "Washing Machine, Dishwasher & Dryer Care Tips",
     blog_page_sub: "Practical advice to help your washing machine, dishwasher and dryer last longer between repairs.",
     blog_back: "Back to Blog",
 
@@ -178,7 +178,7 @@ const translations = {
     /* ---- Brands ---- */
     brands_tag: "Trusted Experience",
     brands_title: "Brands We Repair",
-    brands_sub: "Genuine experience servicing all major appliance brands sold in Saudi Arabia.",
+    brands_sub: "We work on the washing machine, dishwasher and dryer brands found in most Saudi homes. Tell us yours when you call.",
 
     /* ---- Testimonials ---- */
     testimonials_tag: "Customer Reviews",
@@ -187,24 +187,24 @@ const translations = {
     /* ---- Location / Map ---- */
     location_tag: "Find Us",
     location_title: "Our Location in Riyadh",
-    location_desc: "Based in Al Yarmuk, Riyadh — with technicians dispatched across the city for on-site repair.",
+    location_desc: "Based in Al Yarmuk, Riyadh. Technicians head out across the city to repair machines at your home.",
     location_get_directions: "Get Directions",
     location_leave_review: "Leave Us a Review",
 
     /* ---- Service Areas ---- */
     areas_tag: "Coverage",
     areas_title: "Service Areas in Riyadh",
-    areas_sub: "Based in Al Yarmuk, with technicians dispatched to the following areas and beyond.",
+    areas_sub: "Based in Al Yarmuk and visiting homes across the city, including the areas below.",
 
     /* ---- Guarantees / USPs ---- */
     guarantees_tag: "Our Commitment",
     guarantees_title: "Why You Can Rely On Us",
     guarantee_1_t: "Same-Day Repair Service",
-    guarantee_1_d: "Most repairs are completed on the same day you contact us, so your appliance is back in service without long waits.",
+    guarantee_1_d: "Most repairs are finished the same day you contact us, so the laundry pile does not keep growing while you wait.",
     guarantee_2_t: "30-Day Warranty",
-    guarantee_2_d: "Every repair is backed by a 30-day warranty covering parts and labor, for complete peace of mind after the visit.",
+    guarantee_2_d: "Every repair carries a 30-day warranty on parts and labor, so you are covered after we leave.",
     guarantee_3_t: "Transportation to Workshop",
-    guarantee_3_d: "When a repair needs specialised workshop equipment, we arrange collection of your appliance and return it once repaired.",
+    guarantee_3_d: "If a repair needs workshop equipment, we collect the machine and bring it back once it is fixed.",
   },
 
   ar: {
@@ -218,9 +218,9 @@ const translations = {
 
     brand_name: "إصلاح الغسالات الأوتوماتيكية",
 
-    hero_tag: "الرياض · صيانة الأجهزة المنزلية",
-    hero_title: "صيانة غسالات اتوماتيك وغسالات صحون ونشافات في الرياض",
-    hero_desc: "صيانة سريعة وموثوقة للغسالات الأوتوماتيك وغسالات الصحون والنشافات — فنيون معتمدون يصلون إلى منزلك في جميع أنحاء الرياض.",
+    hero_tag: "الرياض · صيانة الغسالات الأوتوماتيك",
+    hero_title: "صيانة الغسالات الأوتوماتيك في الرياض",
+    hero_desc: "غسالتك الأوتوماتيك لا تصرّف الماء أو لا تدور أو لا تعمل؟ يصلك فني إلى بابك في أي مكان بالرياض، فيحدد العطل الحقيقي ويخبرك بالتكلفة، ثم يبدأ العمل. ونصلح أيضاً غسالات الصحون والنشافات.",
     hero_cta_book: "احجز صيانة",
     hero_cta_call: "اتصل الآن",
     hero_cta_whatsapp: "تواصل عبر واتساب",
@@ -234,26 +234,26 @@ const translations = {
     trust_4: "تغطية خدمية في الرياض",
 
     services_tag: "خدماتنا",
-    services_title: "خدمات إصلاح الأجهزة المنزلية",
-    services_sub: "ثلاث تخصصات محددة، ننجزها بإتقان بدلاً من قائمة عامة من كل شيء.",
+    services_title: "خدمات صيانة الغسالات الأوتوماتيك وغسالات الصحون والنشافات",
+    services_sub: "ثلاث آلات فقط، ونعرفها جيداً. نفضّل أن نُتقن هذه الثلاث على أن نَعِد بإصلاح كل شيء.",
     svc_view: "عرض الخدمة",
     svc_book: "احجز الخدمة",
     badge_certified: "إصلاح معتمد",
 
     why_tag: "لماذا يثق بنا سكان الرياض",
-    why_title: "خدمة صيانة أمينة ودقيقة",
+    why_title: "كيف نعمل",
     why_1_t: "فنيون محترفون",
-    why_1_d: "متخصصون مدرّبون يشخّصون العطل الحقيقي قبل البدء بأي إصلاح.",
+    why_1_d: "نبحث عن العطل الحقيقي أولاً، ولا نغيّر القطع ونتمنى الأفضل.",
     why_2_t: "استجابة سريعة",
-    why_2_d: "نرتّب موعد الزيارة بسرعة حتى لا يتعطل جهازك لفترة طويلة.",
+    why_2_d: "نحجز الزيارة بسرعة حتى لا تبقى بدون جهازك طويلاً.",
     why_3_t: "خدمة شفافة",
-    why_3_d: "تعرف التشخيص والتكلفة قبل بدء أي عمل إصلاح.",
+    why_3_d: "تعرف ما العطل وكم التكلفة قبل أن يبدأ أي إصلاح، ولا نبدأ شيئاً حتى توافق.",
     why_4_t: "إصلاحات عالية الجودة",
-    why_4_d: "قطع مناسبة وطريقة عمل صحيحة حتى لا يتكرر نفس العطل.",
+    why_4_d: "قطع مناسبة وطريقة صحيحة، حتى لا يعود العطل نفسه بعد شهر.",
     why_5_t: "دعم يركّز على العميل",
-    why_5_d: "تواصل واضح من أول اتصال حتى انتهاء الإصلاح.",
+    why_5_d: "إجابات صريحة من أول اتصال حتى انتهاء الإصلاح.",
     why_6_t: "خدمة في جميع أنحاء الرياض",
-    why_6_d: "زيارات ميدانية للمنازل في الرياض والأحياء المجاورة.",
+    why_6_d: "نأتي إلى منزلك في الرياض والأحياء القريبة.",
 
     how_tag: "خطوات بسيطة",
     how_title: "كيف تتم الخدمة",
@@ -264,33 +264,33 @@ const translations = {
     how_3_t: "زيارة الفني",
     how_3_d: "يصل الفني إلى موقعك في الرياض.",
     how_4_t: "يتم إصلاح الجهاز",
-    how_4_d: "الإصلاح في الموقع مع شرح واضح للعمل المنجز.",
+    how_4_d: "يتم الإصلاح في المنزل، وتعرف ما الذي أُنجز ولماذا.",
 
     gallery_tag: "أعمالنا",
     gallery_title: "إصلاحات حديثة في الرياض",
-    gallery_sub: "نظرة على أعمال حقيقية — غسالات وغسالات صحون ونشافات أُعيدت للعمل.",
+    gallery_sub: "لمحة عن الورشة وأعمال حقيقية: غسالات وغسالات صحون ونشافات عادت للعمل.",
     gallery_view_all: "عرض المعرض كاملاً",
     gallery_filter_all: "الكل",
     gallery_filter_wm: "الغسالات",
     gallery_filter_dw: "غسالات الصحون",
     gallery_filter_dr: "النشافات",
 
-    area_title: "خدمات إصلاح الأجهزة المنزلية في جميع أنحاء الرياض",
-    area_desc: "نخدم العملاء في حي اليرموك وجميع الأحياء المجاورة في الرياض، مع فنيين يصلون إلى موقعك للتشخيص والإصلاح مباشرة.",
+    area_title: "صيانة الغسالات الأوتوماتيك في جميع أنحاء الرياض",
+    area_desc: "نعمل في أنحاء الرياض انطلاقاً من مقرّنا في اليرموك، ونغطي الأحياء المحيطة به وما بعدها. يصل الفني إلى عنوانك ويشخّص العطل في مكانه.",
 
     faq_tag: "أسئلة شائعة",
     faq_title: "الأسئلة الأكثر شيوعًا",
 
-    final_cta_title: "بحاجة إلى إصلاح جهاز منزلي في الرياض؟",
-    final_cta_desc: "تواصل مع فريقنا اليوم لترتيب زيارة صيانة احترافية.",
+    final_cta_title: "بحاجة إلى إصلاح غسالة في الرياض؟",
+    final_cta_desc: "اتصل أو راسلنا، وأخبرنا ما المشكلة، وسنرتب لك زيارة.",
     final_cta_contact: "تواصل معنا",
 
     blog_home_tag: "من المدونة",
-    blog_home_title: "نصائح للعناية بالأجهزة",
+    blog_home_title: "نصائح للعناية بالغسالات وغسالات الصحون والنشافات",
     blog_home_view_all: "عرض جميع المقالات",
     blog_read_more: "اقرأ المزيد",
 
-    footer_desc: "صيانة محلية للأجهزة المنزلية في الرياض — غسالات أوتوماتيك وغسالات صحون ونشافات، يتم إصلاحها بشكل صحيح من قبل فنيين يزورون منزلك.",
+    footer_desc: "صيانة محلية للأجهزة المنزلية في الرياض، غسالات أوتوماتيك وغسالات صحون ونشافات، يتم إصلاحها بشكل صحيح من قبل فنيين يزورون منزلك.",
     footer_quick_links: "روابط سريعة",
     footer_services: "الخدمات",
     footer_contact: "تواصل معنا",
@@ -301,29 +301,29 @@ const translations = {
     bc_home: "الرئيسية",
 
     services_page_tag: "الخدمات",
-    services_page_title: "خدمات إصلاح الأجهزة المنزلية في الرياض",
-    services_page_sub: "اختر جهازًا أدناه للاطلاع على الأعطال الشائعة، وما نقوم بإصلاحه، وكيفية سير الزيارة.",
+    services_page_title: "خدمات صيانة الغسالات الأوتوماتيك وغسالات الصحون والنشافات في الرياض",
+    services_page_sub: "اختر الجهاز الذي يزعجك لترى الأعطال الشائعة، وما نفعله حيالها، وكيف تسير الزيارة.",
 
     about_tag: "من نحن",
     about_title: "صيانة أجهزة محلية بإتقان",
-    about_intro: "انطلقت خدمتنا لتقدّم لأهالي الرياض بديلاً واضحًا عن الإصلاح العشوائي — فني صيانة غسالات الرياض يشخّص بدقة، ويشرح بوضوح، ويصلح الجهاز بحيث لا تعود نفس المشكلة.",
+    about_intro: "بدأنا هذه الخدمة لأن إصلاح الأجهزة في الرياض كان في كثير من الأحيان أشبه بالتخمين: يفتح أحدهم الجهاز، ويبدّل قطعة، ويأمل الأفضل. أردنا أن نكون فني صيانة غسالات الرياض الذي يجد العطل الفعلي، ويشرحه بكلمات بسيطة، ويصلحه بحيث لا يعود.",
     about_mission_tag: "رسالتنا",
     about_mission_title: "الحفاظ على استمرارية عمل منازل الرياض",
-    about_mission_desc: "نركّز على ثلاثة أجهزة فقط — الغسالات الأوتوماتيك وغسالات الصحون والنشافات — ليبقى فنيونا متخصصين فعليًا بدلاً من التشتت على كل شيء.",
+    about_mission_desc: "لا نعمل إلا على ثلاثة أشياء: الغسالات الأوتوماتيك وغسالات الصحون والنشافات. قلّة التخصصات تعني أننا نعرف هذه الآلات جيداً بدل أن نكون عاديين في كل شيء.",
     about_choose_tag: "لماذا يختارنا العملاء",
     about_choose_title: "ما يميز خدمتنا",
     about_approach_tag: "أسلوبنا",
     about_approach_title: "أسلوب إصلاح احترافي",
-    about_approach_desc: "تبدأ كل زيارة بتشخيص دقيق، وشرح واضح للعطل، وتكلفة صريحة قبل بدء أي عمل. نستخدم القطع والطريقة الصحيحة للجهاز الذي أمامنا، لا حلاً عامًا.",
+    about_approach_desc: "تبدأ كل زيارة بالطريقة نفسها. ننظر إلى الجهاز، ونحدد ما تعطّل فعلاً، ونخبرك بكلمات بسيطة، ونعطيك التكلفة قبل بدء أي عمل. بعدها نستخدم القطع والطريقة المناسبة للجهاز الذي أمامنا.",
     about_coverage_tag: "التغطية",
     about_coverage_title: "التغطية الخدمية في الرياض",
-    about_coverage_desc: "نزور المنازل في الرياض والأحياء المجاورة للتشخيص والإصلاح في الموقع — دون الحاجة لنقل الجهاز.",
+    about_coverage_desc: "نزور المنازل في الرياض والأحياء المحيطة بها. وفي أغلب الحالات يتم الإصلاح في منزلك، فلا شيء تحمله.",
     about_cta_title: "هل أنت مستعد لإصلاح جهازك؟",
-    about_cta_desc: "تواصل معنا وسنرتب زيارة فني في الوقت المناسب لك.",
+    about_cta_desc: "تواصل معنا وسنجد الوقت الذي يناسبك.",
 
     contact_tag: "تواصل معنا",
     contact_title: "اتصل بنا",
-    contact_sub: "أرسل بياناتك ووصف مشكلة الجهاز، وسنتواصل معك لترتيب الزيارة.",
+    contact_sub: "اكتب اسمك ورقمك وما الذي يفعله الجهاز، وسنتواصل معك لترتيب زيارة. وإن كانت الغسالة تسرّب الآن فاتصل بنا مباشرة.",
     form_name: "الاسم الكامل",
     form_phone: "رقم الهاتف",
     form_appliance: "نوع الجهاز",
@@ -344,11 +344,11 @@ const translations = {
     contact_hours: "ساعات العمل",
 
     gallery_page_tag: "أعمالنا",
-    gallery_page_title: "معرض إصلاح الأجهزة",
-    gallery_page_sub: "نظرة مرئية على إصلاحات حديثة للغسالات وغسالات الصحون والنشافات في الرياض.",
+    gallery_page_title: "معرض إصلاح الغسالات",
+    gallery_page_sub: "نظرة على إصلاحات حديثة للغسالات وغسالات الصحون والنشافات في أنحاء الرياض.",
 
     blog_page_tag: "المدونة",
-    blog_page_title: "نصائح العناية بالأجهزة وإصلاحها",
+    blog_page_title: "نصائح العناية بالغسالات وإصلاحها",
     blog_page_sub: "نصائح عملية لإطالة عمر الغسالة وغسالة الصحون والنشافة بين الأعطال.",
     blog_back: "العودة إلى المدونة",
 
@@ -370,7 +370,7 @@ const translations = {
     /* ---- Brands ---- */
     brands_tag: "خبرة موثوقة",
     brands_title: "العلامات التجارية التي نصلحها",
-    brands_sub: "خبرة حقيقية في صيانة جميع الماركات الرئيسية للأجهزة المتوفرة في السعودية.",
+    brands_sub: "نصلح الغسالات وغسالات الصحون والنشافات من الماركات الموجودة في أغلب البيوت السعودية. أخبرنا بماركتك عند الاتصال.",
 
     /* ---- Testimonials ---- */
     testimonials_tag: "آراء العملاء",
@@ -379,48 +379,48 @@ const translations = {
     /* ---- Location / Map ---- */
     location_tag: "موقعنا",
     location_title: "موقعنا في الرياض",
-    location_desc: "نتواجد في حي اليرموك بالرياض، مع فنيين يصلون إلى مختلف أنحاء المدينة للإصلاح الميداني.",
+    location_desc: "مقرّنا في حي اليرموك بالرياض، وينطلق الفنيون إلى مختلف أنحاء المدينة لإصلاح الأجهزة في منازلكم.",
     location_get_directions: "الحصول على الاتجاهات",
     location_leave_review: "اترك لنا تقييمًا",
 
     /* ---- Service Areas ---- */
     areas_tag: "التغطية",
     areas_title: "مناطق الخدمة في الرياض",
-    areas_sub: "نتواجد في حي اليرموك، مع فنيين يصلون إلى المناطق التالية وما حولها.",
+    areas_sub: "مقرّنا في اليرموك، ونزور المنازل في أنحاء المدينة، ومنها الأحياء أدناه.",
 
     /* ---- Guarantees / USPs ---- */
     guarantees_tag: "التزامنا",
     guarantees_title: "لماذا يمكنك الاعتماد علينا",
     guarantee_1_t: "خدمة إصلاح في نفس اليوم",
-    guarantee_1_d: "معظم الإصلاحات تتم في نفس يوم التواصل معنا، ليعود جهازك للعمل دون انتظار طويل.",
+    guarantee_1_d: "تنتهي معظم الإصلاحات في اليوم نفسه الذي تتواصل فيه معنا، فلا تتراكم الملابس وأنت تنتظر.",
     guarantee_2_t: "ضمان 30 يومًا",
-    guarantee_2_d: "كل إصلاح مغطى بضمان 30 يومًا يشمل القطع والعمالة، لراحة بال كاملة بعد الزيارة.",
+    guarantee_2_d: "كل إصلاح بضمان 30 يوماً على القطع والعمالة، فأنت مطمئن بعد مغادرتنا.",
     guarantee_3_t: "نقل الجهاز إلى الورشة",
-    guarantee_3_d: "عندما يحتاج الإصلاح إلى معدات ورشة متخصصة، نقوم بترتيب استلام جهازك وإعادته بعد الإصلاح.",
+    guarantee_3_d: "إذا احتاج الإصلاح إلى معدات الورشة، نستلم الجهاز ونعيده إليك بعد إصلاحه.",
   }
 };
 
 /* =========================================================
-   Service data — drives services.html cards and the three
+   Service data, drives services.html cards and the three
    service-detail pages via data-service on <body>.
    ========================================================= */
 const servicesData = {
   "washing-machine": {
     slug: "automatic-washing-machine-repair",
-    guide: {"ar": [{"h": "تصليح غسالات اتوماتيك في المنزل مع فني غسالات متخصص", "p": "تبحث عن فني غسالات اتوماتيك أو مهندس غسالات اتوماتيك أو مصلح غسالات في الرياض؟ نقدّم خدمة تصليح الغسالات الاتوماتيك وصيانة غسالات بالرياض في منزلك، ويصل فني صيانة غسالات اتوماتيك بعد اتصالك ليفحص الغسالة في مكانها دون الحاجة إلى نقلها. سواء احتجت إلى صيانة غسالات اتوماتيك في الرياض أو إلى تصليح غسالات الرياض لعطل محدد، تتم معظم الإصلاحات في نفس يوم التواصل، ونشرح لك العطل والتكلفة قبل بدء العمل، والإصلاح مشمول بضمان 30 يوماً على القطع والعمالة."}, {"h": "أشهر أعطال الغسالة الأوتوماتيك وأسبابها", "p": "من أكثر الشكاوى التي نتلقاها في الرياض أن الغسالة لا تصرّف الماء، أو لا تدور، أو تتوقف في منتصف البرنامج. في كثير من الحالات يكون السبب بسيطاً، مثل انسداد فلتر المضخة بالوبر والعملات المعدنية، أو تلف حزام الدوران، أو خلل في مفتاح الباب يمنع بدء الدورة. وفي حالات أخرى يكون العطل في مضخة التصريف أو الفحمات أو البوردة الإلكترونية. لذلك لا نغيّر أي قطعة قبل أن نحدد العطل الفعلي بالفحص."}, {"h": "رموز الأعطال على شاشة الغسالة", "p": "تعرض معظم الغسالات الحديثة رمزاً على الشاشة عند حدوث خلل، وتختلف الرموز من ماركة لأخرى. قد يشير رمز مثل E21 أو 5E أو OE إلى مشكلة في التصريف، بينما ترتبط رموز أخرى بالباب أو مستوى الماء أو المحرك. لا تعتمد على الرمز وحده في الحكم على العطل؛ دليل الجهاز يوضح معناه، والفني يتأكد منه بالفحص قبل الإصلاح."}, {"h": "متى يُفضَّل إصلاح الغسالة ومتى تُستبدل؟", "p": "إصلاح الغسالة أوفر في أغلب الحالات إذا كان العطل في قطعة واحدة مثل المضخة أو الحزام أو الفلتر أو مفتاح الباب. أما إذا كان الحوض الداخلي أو الهيكل تالفاً بشدة فقد لا يكون الإصلاح مجدياً. نشرح لك العطل والتكلفة قبل بدء العمل، لتقرر بنفسك."}, {"h": "نصائح تقلل أعطال الغسالة", "p": "نظّف فلتر المضخة بانتظام، ولا تحمّل الغسالة فوق سعتها، وافحص جيوب الملابس من العملات والمشابك، واترك الباب مفتوحاً بعد الغسيل لتجف حشية الباب المطاطية، واستخدم كمية مناسبة من المنظف لتجنب الرغوة الزائدة. هذه العادات البسيطة تطيل عمر الغسالة وتقلل الحاجة إلى الصيانة."}, {"h": "كيف تعمل الغسالة الأوتوماتيك وأي الأجزاء تتعطل؟", "p": "تسحب الغسالة الأوتوماتيك الماء عبر صمام دخول الماء، ويقيس حساس مستوى الماء (أو مفتاح الضغط) الكمية المطلوبة، ثم يدير المحرك الحوض مباشرة أو عبر حزام. بعد الغسيل تُفرغ مضخة التصريف الماء عبر الخرطوم، ويُبقي قفل الباب الغسالة مغلقة أثناء الدورة، وتتحكم البوردة الإلكترونية في كل مرحلة. لذلك ترتبط الأعطال الشائعة بهذه القطع: انسداد الفلتر أو الخرطوم، وتلف مضخة التصريف، وارتخاء الحزام أو تآكل الفحمات في المحركات التي تحتوي عليها، وعطل قفل الباب أو الحساس، وضعف ماصات الصدمات والمحامل الذي يسبب الاهتزاز والضجيج."}, {"h": "ماذا تجهّز قبل وصول الفني؟", "p": "حتى يسير التشخيص بسرعة، دوّن ماركة الغسالة وموديلها (على الملصق قرب الباب أو في الخلف)، وصوّر الرمز الظاهر على الشاشة إن وُجد، واترك مساحة حول الغسالة، وأخبرنا متى بدأ العطل وهل تكرر. ويفيد أن تذكر إن كانت الغسالة أمامية أو علوية، وهل ظهر تسريب أو صوت غير معتاد قبل التوقف."}], "en": [{"h": "Automatic washing machine repair at home by a washing machine technician", "p": "Looking for a washing machine technician near you in Riyadh? Whether you call him an engineer, a mechanic or a repairman, our technician comes to your home to repair and fix your washing machine. After your call he inspects the machine where it stands, with no need to move it. Most repairs are completed on the same day you contact us, and we explain the fault and the cost before any work begins. Every repair is covered by a 30-day warranty on parts and labor."}, {"h": "Common automatic washing machine faults and their causes", "p": "The most frequent complaints we hear in Riyadh are a machine that won't drain, won't spin, or stops mid-cycle. Often the cause is simple: a pump filter blocked with lint and coins, a worn drive belt, or a faulty door lock switch that stops the cycle from starting. Other times the fault is in the drain pump, the carbon brushes or the electronic control board. That is why we never replace a part before finding the actual fault by inspection."}, {"h": "Error codes on the washing machine display", "p": "Most modern washing machines show a code when something goes wrong, and the codes differ from brand to brand. A code such as E21, 5E or OE can point to a drainage problem, while others relate to the door, the water level or the motor. Don't rely on the code alone: the appliance manual explains what it means, and the technician confirms it by inspection before repairing."}, {"h": "When to repair a washing machine and when to replace it", "p": "Repair is usually the better value when the fault is a single part such as the pump, belt, filter or door switch. If the inner drum or the frame is badly damaged, repair may not make sense. We explain the fault and the cost before any work starts, so the decision is yours."}, {"h": "Tips that reduce washing machine breakdowns", "p": "Clean the pump filter regularly, don't overload the machine, check pockets for coins and clips, leave the door open after washing so the rubber door seal dries, and use the right amount of detergent to avoid excess foam. These simple habits extend the life of the machine and reduce the need for repairs."}, {"h": "How an automatic washing machine works and which parts fail", "p": "An automatic washing machine takes water in through the inlet valve, a water level sensor (or pressure switch) measures how much is needed, and the motor turns the drum directly or through a drive belt. After washing, the drain pump empties the water through the hose, the door lock keeps the door shut during the cycle, and the control board manages every stage. That is why common faults trace back to a few parts: a blocked filter or hose, a worn drain pump, a loose belt or worn carbon brushes (on motors that have them), a faulty door lock or sensor, and weak shock absorbers or bearings that cause vibration and noise."}, {"h": "What to prepare before the technician arrives", "p": "To speed up the diagnosis, note the brand and model of the machine (on the label near the door or at the back), photograph any code on the display, leave some space around the machine, and tell us when the fault started and whether it has repeated. It also helps to say whether the machine is front-load or top-load, and whether you noticed a leak or an unusual noise before it stopped."}]},
-    faq: {"ar": [{"q": "الغسالة لا تصرّف الماء، ما السبب؟", "a": "غالباً بسبب انسداد فلتر المضخة أو خرطوم التصريف، وقد تكون مضخة التصريف نفسها تالفة. يمكنك فحص الفلتر بعد فصل الغسالة عن الكهرباء، فإن استمرت المشكلة فاتصل بنا ليحدد الفني العطل في زيارة منزلية."}, {"q": "الغسالة تتسرب منها المياه، ماذا أفعل؟", "a": "قد يأتي التسريب من الخراطيم أو حشية الباب أو المضخة أو درج المنظف. أغلق الماء وافصل الكهرباء ثم اتصل بنا، فالتسريب المستمر قد يضر بالأرضية والجهاز."}, {"q": "هل تصلحون الغسالة في المنزل أم أحتاج إلى نقلها؟", "a": "نزور منزلك في الرياض ونفحص الغسالة في مكانها، ولا تحتاج إلى نقلها في أغلب الحالات."}, {"q": "هل أعرف التكلفة قبل بدء الإصلاح؟", "a": "نعم، نشرح لك العطل والتكلفة قبل البدء بأي عمل، وأنت من يقرر المتابعة."}, {"q": "هل يوجد ضمان على الإصلاح؟", "a": "نعم، كل إصلاح مشمول بضمان 30 يوماً على القطع والعمالة."}, {"q": "هل تصلحون جميع ماركات الغسالات؟", "a": "نعمل على الماركات الشائعة في السعودية. اتصل بنا وأخبرنا بالماركة والموديل والعطل لنؤكد لك."}, {"q": "هل الخدمة متاحة في أي وقت؟", "a": "ساعات العمل لدينا على مدار 24 ساعة، وتتم معظم الإصلاحات في نفس يوم التواصل."}, {"q": "هل يوجد فني غسالات قريب مني في الرياض؟", "a": "نخدم منازل الرياض ومنها شرق الرياض وشمالها. اتصل بنا وأخبرنا باسم الحي والعطل لنؤكد لك موعد الزيارة."}, {"q": "هل تصلحون غسالات سامسونج وإل جي ودايو؟", "a": "نعم، نصلح هذه الماركات وغيرها من الماركات الشائعة. اطلع على الماركات التي نصلحها وأخبرنا بالموديل والعطل عند الاتصال."}, {"q": "ما رقم صيانة الغسالات في الرياض؟", "a": "يمكنك الاتصال بنا على الرقم الظاهر في أعلى الصفحة أو مراسلتنا عبر واتساب، وأخبرنا بالماركة والموديل والعطل."}], "en": [{"q": "Why won't my washing machine drain?", "a": "Most often the pump filter or drain hose is blocked, though the drain pump itself may have failed. You can check the filter after unplugging the machine; if the problem continues, call us and the technician will find the fault on a home visit."}, {"q": "My washing machine is leaking. What should I do?", "a": "Leaks can come from the hoses, the door seal, the pump or the detergent drawer. Turn off the water and unplug the machine, then call us. A continuing leak can damage your floor and the appliance."}, {"q": "Do you repair the washing machine at home or do I need to move it?", "a": "We visit your home in Riyadh and inspect the machine where it stands. In most cases you don't need to move it."}, {"q": "Will I know the cost before the repair starts?", "a": "Yes. We explain the fault and the cost before any work begins, and you decide whether to go ahead."}, {"q": "Is the repair under warranty?", "a": "Yes. Every repair is covered by a 30-day warranty on parts and labor."}, {"q": "Do you repair all washing machine brands?", "a": "We work on the brands commonly sold in Saudi Arabia. Call us with the brand, model and fault and we'll confirm."}, {"q": "Is the service available at any time?", "a": "Our working hours run 24 hours a day, and most repairs are completed on the same day you contact us."}, {"q": "Is there a washing machine repair service near me in Riyadh?", "a": "We serve homes across Riyadh, including East and North Riyadh. Call us with your neighborhood and the fault, and we will confirm the visit time."}, {"q": "Do you repair Samsung, LG and Daewoo washing machines?", "a": "Yes, we repair these and other common brands. See the brands we repair, and tell us the model and the fault when you call."}, {"q": "What is the washing machine repair number in Riyadh?", "a": "Call us on the number shown at the top of this page or message us on WhatsApp, and tell us the brand, model and fault."}]},
+    guide: {"ar": [{"h": "تصليح غسالات اتوماتيك في المنزل مع فني غسالات متخصص", "p": "تبحث عن فني غسالات اتوماتيك أو مهندس غسالات اتوماتيك أو مصلح غسالات في الرياض؟ نقدّم خدمة تصليح الغسالات الاتوماتيك وصيانة غسالات بالرياض في منزلك، ويصل فني صيانة غسالات اتوماتيك بعد اتصالك ليفحص الغسالة في مكانها دون حاجة إلى نقلها. سواء احتجت إلى صيانة غسالات اتوماتيك في الرياض أو إلى تصليح غسالات الرياض لعطل محدد، تتم معظم الإصلاحات في اليوم نفسه، ونشرح لك العطل والتكلفة قبل بدء العمل، والإصلاح بضمان 30 يوماً على القطع والعمالة."}, {"h": "أشهر أعطال الغسالة الأوتوماتيك وأسبابها", "p": "أكثر ما نسمعه في الرياض أن الغسالة لا تصرّف الماء، أو لا تدور، أو تتوقف في منتصف البرنامج. وكثيراً ما يكون السبب بسيطاً: فلتر مضخة مسدود بالوبر والعملات المعدنية، أو حزام دوران بالٍ، أو مفتاح باب لا يبلغ الغسالة بأن الباب مغلق. وأحياناً يكون العطل في مضخة التصريف أو الفحمات أو البوردة الإلكترونية. ولهذا لا نغيّر أي قطعة قبل أن يكشف الفحص أيّها تعطّلت. كما أن ترسبات الماء العسر، الشائعة في المدينة، تُتلف المضخات وقطع التسخين أسرع، فهي من أول ما نفحصه."}, {"h": "رموز الأعطال على شاشة الغسالة", "p": "تعرض معظم الغسالات الحديثة رمزاً على الشاشة عند حدوث خلل، وتختلف الرموز من ماركة لأخرى. فمثلاً قد يشير E21 أو 5E أو OE إلى مشكلة تصريف، وترتبط رموز أخرى بالباب أو مستوى الماء أو المحرك. اعتبر الرمز دليلاً لا حكماً نهائياً. دليل الجهاز يوضح ما تعنيه الشركة به، والفني يتأكد بالفحص قبل أن يصلح أي شيء."}, {"h": "متى يُفضَّل إصلاح الغسالة ومتى تُستبدل؟", "p": "الإصلاح أوفر في أغلب الحالات إذا كان العطل في قطعة واحدة مثل المضخة أو الحزام أو الفلتر أو مفتاح الباب. أما إذا كان الحوض الداخلي أو الهيكل تالفاً بشدة فغالباً لا يستحق الإصلاح. نشرح لك العطل والتكلفة قبل أن نبدأ، فالقرار يبقى لك."}, {"h": "نصائح تقلل أعطال الغسالة", "p": "عادات قليلة تصنع فرقاً حقيقياً. نظّف فلتر المضخة بانتظام، ولا تحمّل الغسالة فوق سعتها، وافحص الجيوب من العملات والمشابك، واترك الباب مفتوحاً بعد الغسيل لتجف الحشية المطاطية، واستخدم كمية مناسبة من المنظف لتتجنب الرغوة الزائدة. ليست مثيرة، لكنها تجعل الإصلاحات نادرة."}, {"h": "كيف تعمل الغسالة الأوتوماتيك وأي الأجزاء تتعطل؟", "p": "إليك كيف تعمل الغسالة، لأن ذلك يفسّر لماذا تتكرر الأعطال. يدخل الماء عبر صمام الدخول، ويقرر حساس مستوى الماء (أو مفتاح الضغط) متى يكفي. ويدير المحرك الحوض مباشرة أو عبر حزام. بعد الغسيل تُفرغ مضخة التصريف الماء عبر الخرطوم، ويُبقي قفل الباب الباب مغلقاً أثناء الدورة، وتدير البوردة الإلكترونية كل مرحلة. فمعظم الأعطال تعود إلى قائمة قصيرة: فلتر أو خرطوم مسدود، أو مضخة تصريف بالية، أو حزام مرتخٍ، أو فحمات متآكلة في المحركات التي تحتوي عليها، أو قفل باب أو حساس معطل، أو ماصات صدمات ومحامل ضعيفة تسبب الاهتزاز والضجيج."}, {"h": "ماذا تجهّز قبل وصول الفني؟", "p": "قليل من التحضير يسرّع التشخيص. دوّن ماركة الغسالة وموديلها (على الملصق قرب الباب أو في الخلف)، وصوّر الرمز الظاهر على الشاشة، واترك مساحة حول الغسالة، وأخبرنا متى بدأ العطل وهل حدث من قبل. ويفيد أن تذكر إن كانت أمامية أو علوية، وهل لاحظت تسريباً أو صوتاً غريباً قبل أن تتوقف."}], "en": [{"h": "Automatic washing machine repair at home by a washing machine technician", "p": "Looking for a washing machine technician near you in Riyadh? Call him an engineer, a mechanic or a repairman, it is the same person: someone who comes to your home, looks at the machine where it stands and repairs it. You do not need to move anything. Most repairs are done the same day you contact us, you hear the fault and the cost before any work begins, and every repair carries a 30-day warranty on parts and labor."}, {"h": "Common automatic washing machine faults and their causes", "p": "The calls we get most in Riyadh are about machines that won't drain, won't spin or stop halfway through a cycle. Often the cause is small: a pump filter clogged with lint and coins, a worn drive belt, or a door lock switch that is not telling the machine the door is shut. Sometimes it is the drain pump, the carbon brushes or the control board. That is exactly why we don't replace a part until inspection shows which one has failed. Hard water scale, common in the city, wears pumps and heating parts faster, so it is one of the first things we look at."}, {"h": "Error codes on the washing machine display", "p": "Most modern machines show a code when something is wrong, and the codes differ from brand to brand. E21, 5E or OE, for example, can point to drainage trouble, while other codes relate to the door, the water level or the motor. Use the code as a clue, not a verdict. The appliance manual tells you what the manufacturer means by it, and the technician confirms it by inspecting the machine before repairing anything."}, {"h": "When to repair a washing machine and when to replace it", "p": "Repair is usually the better choice when the fault is a single part: the pump, belt, filter or door switch. If the inner drum or the frame is badly damaged, it often isn't worth repairing. We tell you the fault and the cost before starting, so the decision stays with you."}, {"h": "Tips that reduce washing machine breakdowns", "p": "A few habits make a real difference. Clean the pump filter regularly, don't overload the drum, check pockets for coins and clips, leave the door open after a wash so the rubber seal dries, and use the right amount of detergent so it doesn't foam excessively. None of this is exciting, but it keeps repairs rare."}, {"h": "How an automatic washing machine works and which parts fail", "p": "Here is how the machine works, because it explains why faults repeat. Water comes in through the inlet valve, and a water level sensor (or pressure switch) decides when there is enough. The motor turns the drum, either directly or through a drive belt. After washing, the drain pump empties the water through the hose, the door lock keeps the door shut during the cycle, and the control board runs every stage. So most faults trace back to a short list: a blocked filter or hose, a worn drain pump, a loose belt, worn carbon brushes on motors that have them, a faulty door lock or sensor, or weak shock absorbers and bearings that cause vibration and noise."}, {"h": "What to prepare before the technician arrives", "p": "A little preparation speeds up the diagnosis. Note the brand and model (on the label near the door or at the back), photograph any code on the display, leave some space around the machine, and tell us when the fault started and whether it has happened before. It also helps to say whether it is front-load or top-load, and whether you noticed a leak or a strange noise just before it stopped."}]},
+    faq: {"ar": [{"q": "الغسالة لا تصرّف الماء، ما السبب؟", "a": "غالباً فلتر المضخة أو خرطوم التصريف مسدود، وقد تتعطل المضخة نفسها. يمكنك فحص الفلتر بعد فصل الغسالة عن الكهرباء. وإن لم يُحل ذلك المشكلة فاتصل بنا وسيجد الفني العطل في المنزل."}, {"q": "الغسالة تتسرب منها المياه، ماذا أفعل؟", "a": "يأتي التسريب عادة من الخراطيم أو حشية الباب أو المضخة أو درج المنظف. أغلق الماء، وافصل الكهرباء، ثم اتصل بنا. فالتسريب المستمر قد يضر بالأرضية والجهاز."}, {"q": "هل تصلحون الغسالة في المنزل أم أحتاج إلى نقلها؟", "a": "نأتي إليك، وفي أغلب الحالات يتم الإصلاح في مكان الغسالة. لا شيء تحمله."}, {"q": "هل أعرف التكلفة قبل بدء الإصلاح؟", "a": "نعم. يخبرك الفني بالعطل والتكلفة، ولا يبدأ شيء حتى توافق."}, {"q": "هل يوجد ضمان على الإصلاح؟", "a": "نعم: 30 يوماً على القطع والعمالة، فأنت مغطى إذا عاد العطل نفسه خلال هذه المدة."}, {"q": "هل تصلحون جميع ماركات الغسالات؟", "a": "نعمل على الماركات الأكثر انتشاراً في البيوت السعودية. أرسل لنا الماركة والموديل والعطل ونؤكد لك."}, {"q": "هل الخدمة متاحة في أي وقت؟", "a": "ساعات العمل لدينا على مدار 24 ساعة، وتتم معظم الإصلاحات في نفس يوم التواصل."}, {"q": "هل يوجد فني غسالات قريب مني في الرياض؟", "a": "نزور المنازل في أنحاء الرياض، ومنها شرق الرياض وشمالها. اتصل بنا وأخبرنا باسم الحي والعطل لنؤكد لك موعد الزيارة."}, {"q": "هل تصلحون غسالات سامسونج وإل جي ودايو؟", "a": "نعم، نصلح هذه الماركات وغيرها من الماركات الشائعة. اطلع على الماركات التي نصلحها وأخبرنا بالموديل والعطل عند الاتصال."}, {"q": "ما رقم صيانة الغسالات في الرياض؟", "a": "اتصل بالرقم الظاهر في أعلى الصفحة أو راسلنا عبر واتساب بالماركة والموديل والعطل."}], "en": [{"q": "Why won't my washing machine drain?", "a": "Most often the pump filter or drain hose is blocked, though the drain pump itself can fail. After unplugging the machine you can check the filter yourself. If that doesn't fix it, call us and the technician will find the fault at your home."}, {"q": "My washing machine is leaking. What should I do?", "a": "Leaks usually come from the hoses, door seal, pump or detergent drawer. Turn off the tap, unplug the machine and call us. A leak left running can damage your floor and the appliance."}, {"q": "Do you repair the washing machine at home or do I need to move it?", "a": "We come to you, and in most cases the repair happens right where the machine stands. There is nothing to carry."}, {"q": "Will I know the cost before the repair starts?", "a": "Yes. The technician tells you what is wrong and what it will cost, and nothing starts until you say go."}, {"q": "Is the repair under warranty?", "a": "Yes: 30 days on parts and labor, so you are covered if the same fault returns in that time."}, {"q": "Do you repair all washing machine brands?", "a": "We work on the brands most common in Saudi homes. Send us the brand, model and fault and we will confirm."}, {"q": "Is the service available at any time?", "a": "Our working hours run 24 hours a day, and most repairs are completed on the same day you contact us."}, {"q": "Is there a washing machine repair service near me in Riyadh?", "a": "We visit homes across Riyadh, including East and North Riyadh. Call us with your neighborhood and the fault and we will confirm the visit time."}, {"q": "Do you repair Samsung, LG and Daewoo washing machines?", "a": "Yes, we repair these and other common brands. See the brands we repair, and give us the model and the fault when you call."}, {"q": "What is the washing machine repair number in Riyadh?", "a": "Call the number at the top of this page or message us on WhatsApp with the brand, model and fault."}]},
     icon: "bi-droplet-half",
     filterGroup: "wm",
     image: "hero-technician-front-load.webp",
     title: { en: "Automatic Washing Machine Repair", ar: "إصلاح الغسالات الأوتوماتيك" },
     h1: { en: "Automatic Washing Machine Repair in Riyadh", ar: "صيانة غسالات اتوماتيك في الرياض" },
     shortDesc: {
-      en: "Professional repair for automatic washing machines and common washing machine faults.",
+      en: "Won't drain, won't spin, leaking, noisy or showing an error code. Most automatic washer faults come down to a handful of parts, and we find which one before replacing anything.",
       ar: "إصلاح احترافي للغسالات الأوتوماتيك وأعطالها الشائعة."
     },
     intro: {
-      en: "If your automatic washing machine won't start, won't drain, or is leaking water, our technicians diagnose the fault on-site and repair it properly — no guesswork, no unnecessary part swaps.",
-      ar: "إذا كانت غسالتك الأوتوماتيك لا تعمل، أو لا تُصرّف الماء، أو تسرّب الماء، يقوم فنيونا بتشخيص العطل في الموقع وإصلاحه بشكل صحيح — دون تخمين أو استبدال قطع غير ضرورية."
+      en: "If your automatic washing machine won't start, won't drain or is leaking, a technician comes to your home in Riyadh, finds out what has actually gone wrong and repairs it. No guesswork, and no swapping parts to see what happens.",
+      ar: "إذا كانت غسالتك الأوتوماتيك لا تعمل، أو لا تُصرّف الماء، أو تسرّب، يصل إليك فني في الرياض ويشخّص العطل في مكانه ويصلحه بشكل صحيح، دون تخمين ودون استبدال قطع لا حاجة إليها."
     },
     problems: {
       en: ["Washing machine not starting", "Not draining", "Not spinning", "Water leakage", "Excessive vibration", "Door problems", "Error/fault codes"],
@@ -437,20 +437,20 @@ const servicesData = {
   },
   "dishwasher": {
     slug: "dishwasher-repair",
-    guide: {"ar": [{"h": "فني غسالة صحون في الرياض", "p": "تحتاج إلى فني غسالة صحون الرياض؟ نرسل فني غسالة صحون إلى منزلك لفحص العطل، سواء كنت تبحث عن صيانة غسالة صحون الرياض أو عن فني تصليح غسالة صحون لمشكلة محددة كالتصريف أو التسريب. نشرح لك العطل والتكلفة قبل بدء العمل، والإصلاح بضمان 30 يوماً على القطع والعمالة."}, {"h": "أشهر أعطال غسالة الصحون", "p": "أكثر ما يصلنا من شكاوى هو ضعف التنظيف وبقاء بقايا الطعام على الأواني، أو عدم تصريف الماء، أو التسريب، أو أن الغسالة لا تسخّن أو لا تبدأ الدورة. غالباً يرجع ذلك إلى انسداد فلتر القاع أو أذرع الرش، أو تلف مضخة التصريف، أو خلل في عنصر التسخين أو حشية الباب. نفحص الجهاز أولاً ثم نحدد القطعة المعطلة."}, {"h": "لماذا تبقى الأواني متسخة أو بيضاء اللون؟", "p": "الرواسب البيضاء على الأواني والزجاج ناتجة عادة عن عسر الماء، وتحتاج إلى ملح غسالة الصحون ولمّع مناسب. أما بقايا الطعام فتدل على انسداد أذرع الرش أو الفلتر، أو على ترتيب الأواني بطريقة تعيق وصول الماء. نظّف الفلتر وأذرع الرش أولاً، فإن استمرت المشكلة فالجهاز يحتاج إلى فحص."}, {"h": "الروائح الكريهة ورموز الأعطال", "p": "الرائحة الكريهة تدل غالباً على بقايا عالقة في الفلتر أو خرطوم التصريف. يمكن تشغيل برنامج تنظيف بحرارة عالية مع منظف مخصص لغسالات الصحون. أما الرموز التي تظهر على الشاشة فتختلف باختلاف الماركة، ويوضح دليل الجهاز معناها، ويتأكد الفني منها بالفحص."}, {"h": "الصيانة الدورية لغسالة الصحون", "p": "أزل بقايا الطعام الكبيرة قبل التحميل، ونظّف الفلتر بانتظام، وافحص أذرع الرش من الانسداد، ولا تملأ السلال فوق طاقتها، واستخدم الملح واللمّع حسب توصية الشركة المصنّعة. لا تستخدم صابون الأطباق اليدوي في الغسالة لأنه يسبب رغوة زائدة وقد يؤدي إلى تسريب."}, {"h": "كيف تعمل غسالة الصحون وأي الأجزاء تتعطل؟", "p": "تدخل المياه إلى غسالة الصحون عبر صمام الدخول، ويسخّنها عنصر التسخين، ثم تدفعها مضخة الدورة عبر أذرع الرش إلى الأواني، ويحجز الفلتر بقايا الطعام، وتُفرغ مضخة التصريف الماء المتسخ. ويضيف موزع المنظف واللمّع المواد في الوقت المناسب، وتمنع حشية الباب التسريب، وتتحكم البوردة في الدورة. لذلك تنتج الأعطال الشائعة عن انسداد الفلتر أو أذرع الرش، أو تلف مضخة التصريف أو عنصر التسخين، أو تآكل حشية الباب، أو خلل في موزع المنظف."}, {"h": "ماذا تجهّز قبل وصول الفني؟", "p": "دوّن ماركة غسالة الصحون وموديلها (على ملصق داخل إطار الباب أو على جانبه)، وصوّر الرمز الظاهر على الشاشة إن وُجد، وأفرغ السلال من الأواني إن أمكن، وأخبرنا هل المشكلة في التصريف أو التنظيف أو التسخين أو التسريب. وإن كنت تستخدم ملح غسالة الصحون واللمّع فأخبرنا بذلك."}], "en": [{"h": "Dishwasher technician and service at your home", "p": "Need a dishwasher technician in Riyadh? We offer dishwasher repair and dishwasher service at your home, from a quick fix when the machine won't drain to regular dishwasher maintenance. We explain the fault and the cost before any work begins, with a 30-day warranty on parts and labor."}, {"h": "Common dishwasher faults", "p": "The most common complaints are poor cleaning with food left on dishes, water that won't drain, leaks, and a dishwasher that doesn't heat or won't start a cycle. These usually trace back to a blocked bottom filter or spray arms, a failed drain pump, or a fault in the heating element or door seal. We inspect the unit first and then identify the faulty part."}, {"h": "Why dishes stay dirty or look cloudy", "p": "White deposits on dishes and glassware are usually caused by hard water and call for dishwasher salt and a suitable rinse aid. Leftover food points to blocked spray arms or filter, or to dishes loaded in a way that blocks the water. Clean the filter and spray arms first; if the problem continues, the machine needs an inspection."}, {"h": "Bad smells and error codes", "p": "A bad smell usually means residue stuck in the filter or drain hose. You can run a hot cleaning cycle with a dishwasher cleaner. Error codes differ by brand; the appliance manual explains them and the technician confirms them by inspection."}, {"h": "Regular dishwasher maintenance", "p": "Scrape large food scraps before loading, clean the filter regularly, check the spray arms for blockages, don't overload the racks, and use salt and rinse aid as the manufacturer recommends. Don't use hand dishwashing liquid in the machine, as it causes excess foam and can lead to leaks."}, {"h": "How a dishwasher works and which parts fail", "p": "Water enters the dishwasher through the inlet valve, the heating element warms it, the circulation pump drives it through the spray arms onto the dishes, the filter traps food residue, and the drain pump removes the dirty water. The detergent dispenser and rinse aid release at the right moment, the door seal prevents leaks, and the control board runs the cycle. That is why the common faults come from a blocked filter or spray arms, a worn drain pump or heating element, a damaged door seal, or a faulty detergent dispenser."}, {"h": "What to prepare before the technician arrives", "p": "Note the brand and model of the dishwasher (on a label inside the door frame or on its side), photograph any code on the display, empty the racks if you can, and tell us whether the problem is draining, cleaning, heating or leaking. If you use dishwasher salt and rinse aid, mention it."}]},
-    faq: {"ar": [{"q": "غسالة الصحون لا تصرّف الماء، ما الحل؟", "a": "تحقق أولاً من فلتر القاع وخرطوم التصريف بعد فصل الجهاز عن الكهرباء. إذا بقي الماء في الحوض فقد تكون مضخة التصريف تالفة، ويحتاج الجهاز إلى فحص من الفني."}, {"q": "لماذا لا تنظف غسالة الصحون الأواني جيداً؟", "a": "الأسباب الشائعة هي انسداد أذرع الرش أو الفلتر، أو كثرة الأواني في السلال، أو منظف غير مناسب، أو نقص الملح واللمّع. إذا نظّفت الأجزاء وبقيت المشكلة فاتصل بنا للفحص."}, {"q": "غسالة الصحون يتسرب منها الماء، ما السبب؟", "a": "قد يكون السبب حشية الباب أو الخراطيم أو رغوة زائدة بسبب استخدام صابون يدوي. أوقف الجهاز وافصل الكهرباء ثم اتصل بنا إن استمر التسريب."}, {"q": "هل تصلحون غسالة الصحون في المنزل؟", "a": "نعم، يزورك الفني في منزلك بالرياض ويفحص الجهاز في مكانه."}, {"q": "هل يوجد ضمان على إصلاح غسالة الصحون؟", "a": "نعم، كل إصلاح مشمول بضمان 30 يوماً على القطع والعمالة."}, {"q": "هل أعرف التكلفة قبل بدء الإصلاح؟", "a": "نعم، نشرح لك العطل والتكلفة قبل البدء بأي عمل، وأنت من يقرر المتابعة."}], "en": [{"q": "My dishwasher won't drain. What can I do?", "a": "First check the bottom filter and the drain hose after unplugging the unit. If water stays in the tub, the drain pump may have failed and the technician needs to inspect the machine."}, {"q": "Why isn't my dishwasher cleaning dishes properly?", "a": "Common causes are blocked spray arms or filter, overloaded racks, an unsuitable detergent, or a lack of salt and rinse aid. If you clean those parts and the problem remains, call us for an inspection."}, {"q": "Why is my dishwasher leaking?", "a": "The cause may be the door seal, the hoses, or excess foam from using hand dishwashing liquid. Stop the machine, unplug it, and call us if the leak continues."}, {"q": "Do you repair dishwashers at home?", "a": "Yes. The technician visits your home in Riyadh and inspects the unit where it stands."}, {"q": "Is the dishwasher repair under warranty?", "a": "Yes. Every repair is covered by a 30-day warranty on parts and labor."}, {"q": "Will I know the cost before the repair starts?", "a": "Yes. We explain the fault and the cost before any work begins, and you decide whether to go ahead."}]},
+    guide: {"ar": [{"h": "فني غسالة صحون في الرياض", "p": "تحتاج إلى فني غسالة صحون الرياض؟ نرسل فني غسالة صحون إلى منزلك لفحص العطل، سواء كنت تبحث عن صيانة غسالة صحون الرياض أو عن فني تصليح غسالة صحون لمشكلة محددة كالتصريف أو التسريب. نشرح لك العطل والتكلفة قبل بدء العمل، والإصلاح بضمان 30 يوماً على القطع والعمالة."}, {"h": "أشهر أعطال غسالة الصحون", "p": "أكثر ما نسمعه: ضعف التنظيف وبقايا طعام على الأواني، أو ماء لا يُصرَّف، أو تسريب، أو غسالة لا تسخّن أو لا تبدأ الدورة. وغالباً يعود ذلك إلى فلتر القاع أو أذرع الرش المسدودة، أو مضخة تصريف تالفة، أو خلل في عنصر التسخين أو حشية الباب. نفحص الجهاز أولاً ثم نسمّي القطعة المعطلة."}, {"h": "لماذا تبقى الأواني متسخة أو بيضاء اللون؟", "p": "الطبقة البيضاء على الأواني والكؤوس سببها غالباً الماء العسر، وتحتاج إلى ملح غسالة الصحون ولمّع مناسب. وبقايا الطعام تدل على أذرع رش أو فلتر مسدود، أو على ترتيب للأواني يمنع وصول الماء. نظّف الفلتر وأذرع الرش أولاً، فإن بقيت المشكلة فالجهاز يحتاج إلى فحص."}, {"h": "الروائح الكريهة ورموز الأعطال", "p": "الرائحة الكريهة تعني غالباً بقايا عالقة في الفلتر أو خرطوم التصريف. وكثيراً ما يفيد تشغيل دورة تنظيف ساخنة بمنظف مخصص لغسالات الصحون. أما الرموز على الشاشة فتختلف باختلاف الماركة، فراجع دليل الجهاز لمعرفة معناها، ثم يتأكد الفني منها بالفحص."}, {"h": "الصيانة الدورية لغسالة الصحون", "p": "أزل بقايا الطعام الكبيرة قبل التحميل، ونظّف الفلتر بانتظام، وافحص أذرع الرش من الانسداد، ولا تملأ السلال فوق طاقتها، واستخدم الملح واللمّع حسب توصية الشركة المصنّعة. ولا تستخدم صابون الأطباق اليدوي في الغسالة أبداً، فرغوته الزائدة قد تسبب تسريباً."}, {"h": "كيف تعمل غسالة الصحون وأي الأجزاء تتعطل؟", "p": "يدخل الماء عبر صمام الدخول ويسخّنه عنصر التسخين. ثم تدفعه مضخة الدورة عبر أذرع الرش إلى الأواني، ويحجز الفلتر بقايا الطعام، وتُفرغ مضخة التصريف الماء المتسخ. ويضيف موزع المنظف واللمّع المواد في الوقت المناسب، وتمنع حشية الباب التسريب، وتدير البوردة الدورة. لذلك تأتي الأعطال عادةً من انسداد الفلتر أو أذرع الرش، أو مضخة تصريف أو عنصر تسخين بالٍ، أو حشية باب تالفة، أو موزع منظف معطل."}, {"h": "ماذا تجهّز قبل وصول الفني؟", "p": "دوّن ماركة غسالة الصحون وموديلها (على ملصق داخل إطار الباب أو على جانبه)، وصوّر الرمز الظاهر على الشاشة، وأفرغ السلال إن أمكن، وأخبرنا هل المشكلة في التصريف أو التنظيف أو التسخين أو التسريب. وإن كنت تستخدم الملح واللمّع فاذكر ذلك أيضاً."}], "en": [{"h": "Dishwasher technician and service at your home", "p": "Need a dishwasher technician in Riyadh? We do dishwasher repair and dishwasher service at your home, from a quick fix when it won't drain to regular dishwasher maintenance. You hear the fault and the cost before any work begins, and there is a 30-day warranty on parts and labor."}, {"h": "Common dishwasher faults", "p": "The complaints we hear most are poor cleaning with food left on dishes, water that won't drain, leaks, and a dishwasher that doesn't heat or won't start a cycle. Usually it comes down to a blocked bottom filter or spray arms, a failed drain pump, or a fault in the heating element or door seal. We inspect the machine first, then name the part."}, {"h": "Why dishes stay dirty or look cloudy", "p": "White film on dishes and glasses is usually hard water, and it calls for dishwasher salt and a suitable rinse aid. Food left on dishes points to blocked spray arms or a clogged filter, or to a load that blocks the water. Clean the filter and spray arms first. If the problem stays, the machine needs an inspection."}, {"h": "Bad smells and error codes", "p": "A bad smell usually means residue stuck in the filter or drain hose. A hot cleaning cycle with a dishwasher cleaner often helps. Error codes differ by brand, so check the appliance manual for what yours means; the technician then confirms it by inspection."}, {"h": "Regular dishwasher maintenance", "p": "Scrape large scraps off before loading, clean the filter regularly, check the spray arms for blockages, don't overload the racks, and use salt and rinse aid as the manufacturer recommends. And never use hand dishwashing liquid in the machine. It foams badly and can cause leaks."}, {"h": "How a dishwasher works and which parts fail", "p": "Water enters through the inlet valve and the heating element warms it. The circulation pump pushes it through the spray arms onto the dishes, the filter catches food residue, and the drain pump removes the dirty water. The detergent dispenser and rinse aid release at the right moment, the door seal stops leaks, and the control board runs the cycle. That is why faults usually come from a blocked filter or spray arms, a worn drain pump or heating element, a damaged door seal or a faulty detergent dispenser."}, {"h": "What to prepare before the technician arrives", "p": "Note the brand and model (on a label inside the door frame or on the side), photograph any code on the display, empty the racks if you can, and tell us whether the problem is draining, cleaning, heating or leaking. If you use salt and rinse aid, mention that too."}]},
+    faq: {"ar": [{"q": "غسالة الصحون لا تصرّف الماء، ما الحل؟", "a": "ابدأ بفلتر القاع وخرطوم التصريف بعد فصل الجهاز عن الكهرباء. وإن بقي الماء في الحوض فقد تكون مضخة التصريف تالفة ويحتاج الجهاز إلى فحص الفني."}, {"q": "لماذا لا تنظف غسالة الصحون الأواني جيداً؟", "a": "غالباً أذرع رش أو فلتر مسدود، أو سلال مكدّسة، أو منظف غير مناسب، أو نقص في الملح واللمّع. إن نظّفت هذه الأجزاء وبقيت المشكلة فاتصل بنا للفحص."}, {"q": "غسالة الصحون يتسرب منها الماء، ما السبب؟", "a": "قد يكون السبب حشية الباب أو الخراطيم أو رغوة زائدة من صابون الأطباق اليدوي. أوقف الجهاز، وافصل الكهرباء، واتصل بنا إن استمر التسريب."}, {"q": "هل تصلحون غسالة الصحون في المنزل؟", "a": "نأتي إليك، وفي أغلب الحالات يتم الإصلاح في مكان الجهاز. لا شيء تحمله."}, {"q": "هل يوجد ضمان على إصلاح غسالة الصحون؟", "a": "نعم: 30 يوماً على القطع والعمالة، فأنت مغطى إذا عاد العطل نفسه خلال هذه المدة."}, {"q": "هل أعرف التكلفة قبل بدء الإصلاح؟", "a": "نعم. يخبرك الفني بالعطل والتكلفة، ولا يبدأ شيء حتى توافق."}], "en": [{"q": "My dishwasher won't drain. What can I do?", "a": "Start with the bottom filter and the drain hose, after unplugging the machine. If water stays in the tub, the drain pump may have failed and the technician needs to inspect it."}, {"q": "Why isn't my dishwasher cleaning dishes properly?", "a": "Usually blocked spray arms or a clogged filter, an overloaded rack, an unsuitable detergent, or no salt and rinse aid. If you clean those and the problem stays, call us for an inspection."}, {"q": "Why is my dishwasher leaking?", "a": "It may be the door seal, the hoses, or too much foam from hand dishwashing liquid. Stop the machine, unplug it, and call us if the leak continues."}, {"q": "Do you repair dishwashers at home?", "a": "We come to you, and in most cases the repair happens right where the machine stands. There is nothing to carry."}, {"q": "Is the dishwasher repair under warranty?", "a": "Yes: 30 days on parts and labor, so you are covered if the same fault returns in that time."}, {"q": "Will I know the cost before the repair starts?", "a": "Yes. The technician tells you what is wrong and what it will cost, and nothing starts until you say go."}]},
     icon: "bi-cup-straw",
     filterGroup: "dw",
     image: "dishwasher-repair-technician-riyadh.webp",
     title: { en: "Dishwasher Repair", ar: "إصلاح غسالات الصحون" },
     h1: { en: "Dishwasher Repair in Riyadh", ar: "صيانة غسالة صحون في الرياض" },
     shortDesc: {
-      en: "Reliable dishwasher repair for common cleaning, drainage, water and electrical problems.",
-      ar: "إصلاح موثوق لغسالات الصحون لمشاكل التنظيف والتصريف والماء والكهرباء."
+      en: "Dishes coming out dirty, water sitting at the bottom, leaks or a dead control panel. We start with the filter, pump and spray arms, because that is where most problems begin.",
+      ar: "غسالة الصحون لا تنظّف جيداً، أو يبقى الماء في قاعها، أو تسرّب، أو لا تعمل لوحة التحكم. نبدأ بالفلتر والمضخة وأذرع الرش لأن أغلب المشاكل تبدأ من هناك."
     },
     intro: {
-      en: "From dishes coming out dirty to a dishwasher that won't drain, our technicians handle the full range of dishwasher faults with an on-site visit in Riyadh.",
-      ar: "من الأطباق التي تخرج غير نظيفة إلى غسالة صحون لا تُصرّف الماء، يتعامل فنيونا مع كامل نطاق أعطال غسالة الصحون من خلال زيارة ميدانية في الرياض."
+      en: "From dishes that come out dirty to a dishwasher that won't drain, our technicians deal with the whole range of dishwasher faults, at your home in Riyadh.",
+      ar: "من الأطباق التي تخرج غير نظيفة إلى غسالة صحون لا تصرّف الماء، يتعامل فنيونا مع مختلف أعطال غسالات الصحون في منزلك بالرياض."
     },
     problems: {
       en: ["Dishwasher not starting", "Poor cleaning", "Water not draining", "Water leakage", "Unusual noise", "Heating problems", "Error/fault codes"],
@@ -467,20 +467,20 @@ const servicesData = {
   },
   "dryer": {
     slug: "dryer-repair",
-    guide: {"ar": [{"h": "صيانة نشافة الملابس (مجفف الملابس)", "p": "تعمل نشافة ملابس، أو مجفف ملابس كما يسميه البعض، بالهواء الساخن. نقدّم تصليح نشافة الرياض في المنزل، ونصلح مجفف ملابس حراري ونشافة حرارية، ونفحص عنصر التسخين ومجرى الهواء والحساسات قبل أي إصلاح، ونشرح لك العطل والتكلفة قبل بدء العمل."}, {"h": "أشهر أعطال نشافة الملابس", "p": "من أكثر الأعطال شيوعاً أن النشافة لا تسخّن، أو تبقى الملابس رطبة بعد انتهاء الدورة، أو لا يدور الحوض، أو يصدر الجهاز ضوضاء أو حرارة مرتفعة. الأسباب المعتادة هي انسداد فلتر الوبر أو مجرى الهواء، أو تلف عنصر التسخين أو الثرموستات، أو قطع حزام الحوض. نفحص الجهاز لتحديد العطل قبل أي إصلاح."}, {"h": "خطر تراكم الوبر في النشافة", "p": "تراكم الوبر في الفلتر ومجرى العادم لا يبطّئ التجفيف فحسب، بل يرفع حرارة الجهاز وقد يشكّل خطر حريق. نظّف فلتر الوبر بعد كل دورة، وتأكد من أن مجرى العادم غير مسدود أو مثني."}, {"h": "النشافة تعمل لكن الملابس تبقى رطبة", "p": "يدل ذلك غالباً على اختناق مجرى الهواء أو انسداد الفلتر أو تحميل زائد، وقد يكون عنصر التسخين أو الحساس ضعيفاً. ابدأ بتنظيف الفلتر وتخفيف الحمل، فإن لم يتحسن الأداء فاطلب فحص الجهاز."}, {"h": "نصائح لإطالة عمر النشافة", "p": "نظّف فلتر الوبر بعد كل استخدام، ولا تحمّل النشافة فوق سعتها، وإن كانت نشافتك مكثّفة فأفرغ خزان المياه بعد كل دورة. لا تجفف ملابس ملوثة بالزيوت أو المواد القابلة للاشتعال، وانتبه إلى أن مجرى الهواء يجب أن يبقى حراً دائماً."}, {"h": "صيانة الغسالة المدمجة مع النشافة (غسالة ونشافة في جهاز واحد)", "p": "تجمع بعض الأجهزة وظيفتي الغسيل والتجفيف في جهاز واحد، ولذلك قد تتعرض لأعطال الغسالة الأوتوماتيك مثل التصريف والدوران والتسريب، ولأعطال النشافة مثل عدم التسخين وانسداد مجرى الهواء. نفحص الجهاز لتحديد أي الوظيفتين فيها العطل قبل الإصلاح."}, {"h": "كيف تعمل النشافة وأي الأجزاء تتعطل؟", "p": "تسحب النشافة الهواء وتسخّنه بعنصر تسخين يتحكم فيه ثرموستات ومصهر حراري للحماية، ويدير المحرك الحوض عبر حزام وبكرات، ثم يمر الهواء الرطب عبر فلتر الوبر إلى مجرى العادم، أو إلى المكثف في النشافات المكثفة، ويراقب حساس الرطوبة جفاف الملابس. لذلك ترتبط الأعطال بانسداد الفلتر أو المجرى، وتلف عنصر التسخين أو الثرموستات، وقطع الحزام أو تآكل البكرات، وعطل الحساس."}, {"h": "ماذا تجهّز قبل وصول الفني؟", "p": "دوّن ماركة النشافة وموديلها، ونظّف فلتر الوبر قبل الزيارة إن أمكن، وأخبرنا هل المشكلة في عدم التسخين أو بطء التجفيف أو عدم دوران الحوض أو الضجيج. وإن كانت نشافتك مكثفة فأفرغ خزان المياه، وأخبرنا إن ظهرت رائحة احتراق أو حرارة غير معتادة."}], "en": [{"h": "Dryer repair and dryer service at your home", "p": "We offer dryer repair and dryer service in Riyadh. Our dryer technician checks the heating element, thermostat, lint filter and air path at your home, and explains the fault and the cost before any work begins, with a 30-day warranty on parts and labor."}, {"h": "Common dryer faults", "p": "The most common faults are a dryer that doesn't heat, clothes that stay damp after the cycle, a drum that won't turn, or a machine that is noisy or runs too hot. Usual causes are a blocked lint filter or air duct, a failed heating element or thermostat, or a broken drum belt. We inspect the unit to find the fault before any repair."}, {"h": "The danger of lint build-up", "p": "Lint building up in the filter and exhaust duct doesn't only slow down drying; it raises the temperature of the machine and can become a fire risk. Clean the lint filter after every cycle and make sure the exhaust duct is not blocked or kinked."}, {"h": "The dryer runs but clothes stay damp", "p": "This usually points to restricted airflow, a blocked filter or an overloaded drum, though a weak heating element or sensor is also possible. Start by cleaning the filter and reducing the load; if performance doesn't improve, have the machine inspected."}, {"h": "Tips to extend the life of your dryer", "p": "Clean the lint filter after each use, don't overload the dryer, and if your dryer is a condenser type, empty the water tank after every cycle. Never dry clothes soaked in oils or flammable substances, and keep the air path free at all times."}, {"h": "Washer-dryer combo repair", "p": "Some appliances combine washing and drying in one machine, so they can suffer both washing machine faults such as drainage, spinning and leaks, and dryer faults such as no heat and blocked airflow. We inspect the machine to find which function has the fault before repairing it."}, {"h": "How a dryer works and which parts fail", "p": "A dryer draws in air and warms it with a heating element controlled by a thermostat and protected by a thermal fuse. The motor turns the drum through a belt and rollers, then the damp air passes through the lint filter to the exhaust duct (or to the condenser in condenser dryers), while a moisture sensor tracks how dry the clothes are. That is why faults relate to a blocked filter or duct, a failed heating element or thermostat, a broken belt or worn rollers, and a faulty sensor."}, {"h": "What to prepare before the technician arrives", "p": "Note the brand and model of the dryer, clean the lint filter before the visit if you can, and tell us whether the problem is no heat, slow drying, a drum that won't turn, or noise. If your dryer is a condenser type, empty the water tank, and tell us if you noticed a burning smell or unusual heat."}]},
-    faq: {"ar": [{"q": "النشافة لا تسخّن، ما السبب؟", "a": "غالباً يكون السبب انسداد الفلتر أو مجرى الهواء، أو تلف عنصر التسخين أو الثرموستات. نظّف الفلتر أولاً، فإن استمر عدم التسخين فاتصل بنا ليفحصها الفني."}, {"q": "لماذا لا تجفف النشافة الملابس جيداً؟", "a": "من الأسباب الشائعة انسداد فلتر الوبر أو مجرى الهواء، أو تحميل النشافة فوق سعتها، أو ضعف التسخين. خفف الحمل ونظّف الفلتر، وإن بقيت المشكلة فتحتاج إلى فحص."}, {"q": "النشافة لا يدور حوضها أو يصدر منها صوت عالٍ، ماذا أفعل؟", "a": "قد يكون الحزام مقطوعاً أو البكرات تالفة أو هناك جسم عالق داخل الحوض. أوقف الجهاز وافصل الكهرباء ثم اتصل بنا للفحص."}, {"q": "هل تصلحون النشافة في المنزل؟", "a": "نعم، يزورك الفني في منزلك بالرياض ويفحص النشافة في مكانها."}, {"q": "هل يوجد ضمان على إصلاح النشافة؟", "a": "نعم، كل إصلاح مشمول بضمان 30 يوماً على القطع والعمالة."}, {"q": "هل أعرف التكلفة قبل بدء الإصلاح؟", "a": "نعم، نشرح لك العطل والتكلفة قبل البدء بأي عمل، وأنت من يقرر المتابعة."}, {"q": "هل تصلحون الغسالة المدمجة مع النشافة؟", "a": "نعم، نفحص الجهاز في منزلك بالرياض ونحدد هل العطل في وظيفة الغسيل أو التجفيف، ونشرح التكلفة قبل بدء الإصلاح."}], "en": [{"q": "Why isn't my dryer heating?", "a": "Most often the filter or air duct is blocked, or the heating element or thermostat has failed. Clean the filter first; if there is still no heat, call us and the technician will inspect it."}, {"q": "Why doesn't my dryer dry clothes properly?", "a": "Common causes are a blocked lint filter or air duct, an overloaded drum, or weak heating. Reduce the load and clean the filter; if the problem remains, it needs an inspection."}, {"q": "My dryer drum won't turn or the dryer is very noisy. What should I do?", "a": "The belt may be broken, the rollers worn, or an object may be stuck inside the drum. Stop the machine, unplug it, and call us for an inspection."}, {"q": "Do you repair dryers at home?", "a": "Yes. The technician visits your home in Riyadh and inspects the dryer where it stands."}, {"q": "Is the dryer repair under warranty?", "a": "Yes. Every repair is covered by a 30-day warranty on parts and labor."}, {"q": "Will I know the cost before the repair starts?", "a": "Yes. We explain the fault and the cost before any work begins, and you decide whether to go ahead."}, {"q": "Do you repair washer-dryer combos?", "a": "Yes. We inspect the machine at your home in Riyadh, work out whether the fault is in the washing or the drying function, and explain the cost before starting the repair."}]},
+    guide: {"ar": [{"h": "صيانة نشافة الملابس (مجفف الملابس)", "p": "تعمل نشافة ملابس، أو مجفف ملابس كما يسميه البعض، بالهواء الساخن. نقدّم تصليح نشافة الرياض في المنزل، ونصلح مجفف ملابس حراري ونشافة حرارية، ونفحص عنصر التسخين ومجرى الهواء والحساسات قبل أي إصلاح، ونشرح لك العطل والتكلفة قبل بدء العمل."}, {"h": "أشهر أعطال نشافة الملابس", "p": "أكثر الأعطال التي نراها: نشافة لا تسخّن، أو ملابس تبقى رطبة بعد الدورة، أو حوض لا يدور، أو جهاز مزعج أو شديد الحرارة. وغالباً يكون السبب فلتر وبر أو مجرى هواء مسدوداً، أو عنصر تسخين أو ثرموستات تالفاً، أو حزام حوض مقطوعاً. نفحص أولاً ونحدد العطل قبل أي إصلاح."}, {"h": "خطر تراكم الوبر في النشافة", "p": "الوبر لا يبطّئ التجفيف فحسب. فإذا تراكم في الفلتر ومجرى العادم رفع حرارة الجهاز وقد يشكّل خطر حريق. نظّف فلتر الوبر بعد كل دورة، وتأكد من أن مجرى العادم غير مسدود أو مثني."}, {"h": "النشافة تعمل لكن الملابس تبقى رطبة", "p": "يشير ذلك غالباً إلى اختناق مجرى الهواء أو انسداد الفلتر أو حمل زائد، وقد يكون عنصر التسخين أو الحساس ضعيفاً. ابدأ بتنظيف الفلتر وتخفيف الحمل، فإن لم يتحسن الأداء فاطلب فحص الجهاز."}, {"h": "نصائح لإطالة عمر النشافة", "p": "نظّف فلتر الوبر بعد كل استخدام، ولا تحمّل النشافة فوق سعتها، وإن كانت مكثّفة فأفرغ خزان الماء بعد كل دورة. ولا تجفف ملابس مبللة بالزيوت أو المواد القابلة للاشتعال، وأبقِ مجرى الهواء حراً دائماً."}, {"h": "صيانة الغسالة المدمجة مع النشافة (غسالة ونشافة في جهاز واحد)", "p": "تجمع بعض الأجهزة الغسيل والتجفيف في حوض واحد، فقد تعاني أعطال الغسيل مثل التصريف والدوران والتسريب، وأعطال التجفيف مثل عدم التسخين وانسداد مجرى الهواء. نفحص الجهاز لنعرف أي الجانبين تعطّل قبل الإصلاح."}, {"h": "كيف تعمل النشافة وأي الأجزاء تتعطل؟", "p": "تسحب النشافة الهواء وتسخّنه بعنصر تسخين يتحكم فيه ثرموستات ويحميه مصهر حراري. ويدير المحرك الحوض عبر حزام وبكرات. ثم يمر الهواء الرطب عبر فلتر الوبر إلى مجرى العادم (أو إلى المكثف في النشافات المكثفة)، بينما يراقب حساس الرطوبة جفاف الملابس. لذلك تأتي الأعطال من فلتر أو مجرى مسدود، أو عنصر تسخين أو ثرموستات تالف، أو حزام مقطوع أو بكرات متآكلة، أو حساس معطل."}, {"h": "ماذا تجهّز قبل وصول الفني؟", "p": "دوّن ماركة النشافة وموديلها، ونظّف فلتر الوبر قبل الزيارة إن أمكن، وأخبرنا هل المشكلة في عدم التسخين أو بطء التجفيف أو عدم دوران الحوض أو الضجيج. وإن كانت مكثّفة فأفرغ خزان الماء، وأخبرنا إن لاحظت رائحة احتراق أو حرارة غير معتادة."}], "en": [{"h": "Dryer repair and dryer service at your home", "p": "We offer dryer repair and dryer service in Riyadh. The dryer technician checks the heating element, thermostat, lint filter and air path at your home, then tells you the fault and the cost before any work begins. Every repair has a 30-day warranty on parts and labor."}, {"h": "Common dryer faults", "p": "The faults we see most are a dryer that doesn't heat, clothes that stay damp after the cycle, a drum that won't turn, or a machine that is noisy or runs too hot. Usually it is a blocked lint filter or air duct, a failed heating element or thermostat, or a broken drum belt. We inspect first and find the fault before repairing anything."}, {"h": "The danger of lint build-up", "p": "Lint doesn't only slow drying. Built up in the filter and exhaust duct, it raises the temperature inside the machine and can become a fire risk. Clean the lint filter after every cycle and make sure the exhaust duct isn't blocked or kinked."}, {"h": "The dryer runs but clothes stay damp", "p": "That usually points to restricted airflow, a blocked filter or an overloaded drum, though a weak heating element or sensor is possible too. Clean the filter and reduce the load first. If it doesn't improve, have the machine inspected."}, {"h": "Tips to extend the life of your dryer", "p": "Clean the lint filter after every use and don't overload the dryer. If yours is a condenser type, empty the water tank after every cycle. Never dry clothes soaked in oil or flammable substances, and keep the air path clear."}, {"h": "Washer-dryer combo repair", "p": "Some machines combine washing and drying in one drum, so they can suffer washing faults such as drainage, spinning and leaks, and dryer faults such as no heat and blocked airflow. We inspect the machine to find which side has failed before repairing it."}, {"h": "How a dryer works and which parts fail", "p": "A dryer draws in air and warms it with a heating element, controlled by a thermostat and protected by a thermal fuse. The motor turns the drum through a belt and rollers. The damp air then passes through the lint filter to the exhaust duct (or to the condenser, in condenser dryers), while a moisture sensor tracks how dry the clothes are. So faults come from a blocked filter or duct, a failed heating element or thermostat, a broken belt or worn rollers, or a faulty sensor."}, {"h": "What to prepare before the technician arrives", "p": "Note the brand and model, clean the lint filter before the visit if you can, and tell us whether the problem is no heat, slow drying, a drum that won't turn, or noise. If it is a condenser dryer, empty the water tank, and tell us if you noticed a burning smell or unusual heat."}]},
+    faq: {"ar": [{"q": "النشافة لا تسخّن، ما السبب؟", "a": "غالباً فلتر أو مجرى هواء مسدود، أو عنصر تسخين أو ثرموستات تالف. نظّف الفلتر أولاً، فإن استمر عدم التسخين فاتصل بنا ليفحصها الفني."}, {"q": "لماذا لا تجفف النشافة الملابس جيداً؟", "a": "غالباً فلتر وبر أو مجرى هواء مسدود، أو حوض مكدّس، أو تسخين ضعيف. خفف الحمل ونظّف الفلتر، وإن بقيت المشكلة فتحتاج إلى فحص."}, {"q": "النشافة لا يدور حوضها أو يصدر منها صوت عالٍ، ماذا أفعل؟", "a": "قد يكون الحزام مقطوعاً أو البكرات تالفة، أو قد يكون هناك شيء عالق داخل الحوض. أوقف الجهاز، وافصل الكهرباء، واتصل بنا للفحص."}, {"q": "هل تصلحون النشافة في المنزل؟", "a": "نأتي إليك، وفي أغلب الحالات يتم الإصلاح في مكان الجهاز. لا شيء تحمله."}, {"q": "هل يوجد ضمان على إصلاح النشافة؟", "a": "نعم: 30 يوماً على القطع والعمالة، فأنت مغطى إذا عاد العطل نفسه خلال هذه المدة."}, {"q": "هل أعرف التكلفة قبل بدء الإصلاح؟", "a": "نعم. يخبرك الفني بالعطل والتكلفة، ولا يبدأ شيء حتى توافق."}, {"q": "هل تصلحون الغسالة المدمجة مع النشافة؟", "a": "نعم. نفحص الجهاز في منزلك بالرياض، ونحدد هل العطل في الغسيل أم التجفيف، ونشرح التكلفة قبل أن نبدأ."}], "en": [{"q": "Why isn't my dryer heating?", "a": "Most often the filter or air duct is blocked, or the heating element or thermostat has failed. Clean the filter first. If there is still no heat, call us and the technician will inspect it."}, {"q": "Why doesn't my dryer dry clothes properly?", "a": "Usually a blocked lint filter or air duct, an overloaded drum or weak heating. Reduce the load and clean the filter; if the problem remains, it needs an inspection."}, {"q": "My dryer drum won't turn or the dryer is very noisy. What should I do?", "a": "The belt may be broken, the rollers worn, or something may be stuck inside the drum. Stop the machine, unplug it and call us for an inspection."}, {"q": "Do you repair dryers at home?", "a": "We come to you, and in most cases the repair happens right where the machine stands. There is nothing to carry."}, {"q": "Is the dryer repair under warranty?", "a": "Yes: 30 days on parts and labor, so you are covered if the same fault returns in that time."}, {"q": "Will I know the cost before the repair starts?", "a": "Yes. The technician tells you what is wrong and what it will cost, and nothing starts until you say go."}, {"q": "Do you repair washer-dryer combos?", "a": "Yes. We inspect the machine at your home in Riyadh, work out whether the fault is in washing or drying, and explain the cost before starting."}]},
     icon: "bi-wind",
     filterGroup: "dr",
     image: "dryer-repair-technician-riyadh.webp",
     title: { en: "Dryer Repair", ar: "إصلاح النشافات" },
     h1: { en: "Dryer Repair in Riyadh", ar: "صيانة النشافات في الرياض" },
     shortDesc: {
-      en: "Professional dryer repair for heating, spinning, drying and operational problems.",
-      ar: "إصلاح احترافي للنشافات لمشاكل التسخين والدوران والتجفيف والتشغيل."
+      en: "Spinning but not heating, taking forever to dry, or a drum that has stopped turning. Dryer faults are usually simple once someone actually opens it up.",
+      ar: "نشافة تدور دون أن تسخّن، أو تستغرق وقتاً طويلاً في التجفيف، أو توقف حوضها عن الدوران. أعطال النشافات غالباً بسيطة عندما يفتحها شخص يعرف ما يبحث عنه."
     },
     intro: {
-      en: "A dryer that won't heat or leaves clothes damp is rarely worth replacing. Our technicians diagnose the actual fault and repair it on-site in Riyadh.",
-      ar: "النشافة التي لا تسخن أو تترك الملابس رطبة نادرًا ما تستحق الاستبدال. يقوم فنيونا بتشخيص العطل الفعلي وإصلاحه في موقعك بالرياض."
+      en: "A dryer that won't heat or leaves clothes damp is rarely worth replacing. Our technicians work out what has actually failed and repair it at your home in Riyadh.",
+      ar: "النشافة التي لا تسخّن أو تترك الملابس رطبة نادراً ما تستحق الاستبدال. يحدد فنيونا ما تعطّل فعلاً ويصلحونه في منزلك بالرياض."
     },
     problems: {
       en: ["Dryer not heating", "Dryer not starting", "Clothes remain wet", "Drum not spinning", "Unusual noise", "Overheating", "Error/fault codes"],
@@ -498,27 +498,27 @@ const servicesData = {
 };
 
 /* =========================================================
-   FAQ data — home page (general) and per-service FAQs.
+   FAQ data, home page (general) and per-service FAQs.
    ========================================================= */
 const faqDataHome = [
   { q: { en: "Do you repair automatic washing machines?", ar: "هل تصلحون الغسالات الأوتوماتيك؟" },
-    a: { en: "Yes — automatic washing machines are one of our three core specialities, covering everything from draining faults to control board issues.", ar: "نعم، الغسالات الأوتوماتيك هي إحدى تخصصاتنا الثلاثة الأساسية، وتغطي كل شيء من أعطال التصريف إلى مشاكل لوحة التحكم." } },
+    a: { en: "Yes. Automatic washing machines are what we do most, from drain and spin faults to control board problems.", ar: "نعم. الغسالات الأوتوماتيك هي أكثر ما نعمل عليه، من أعطال التصريف والدوران إلى مشاكل لوحة التحكم." } },
   { q: { en: "Do you repair dishwashers?", ar: "هل تصلحون غسالات الصحون؟" },
-    a: { en: "Yes, we repair dishwashers for cleaning, drainage, water and electrical faults.", ar: "نعم، نصلح غسالات الصحون لمشاكل التنظيف والتصريف والماء والكهرباء." } },
+    a: { en: "Yes. We repair dishwashers that don't clean, don't drain, leak or won't power on.", ar: "نعم. نصلح غسالات الصحون التي لا تنظّف أو لا تصرّف أو تسرّب أو لا تعمل." } },
   { q: { en: "Do you repair dryers?", ar: "هل تصلحون النشافات؟" },
-    a: { en: "Yes, dryer repair covers heating, spinning, drying and general operational faults.", ar: "نعم، إصلاح النشافات يغطي مشاكل التسخين والدوران والتجفيف والتشغيل العام." } },
+    a: { en: "Yes. That covers dryers that don't heat, don't spin, take too long to dry or have stopped working altogether.", ar: "نعم. ويشمل ذلك النشافات التي لا تسخّن أو لا تدور أو تطيل وقت التجفيف أو توقفت تماماً." } },
   { q: { en: "Do you provide on-site repair in Riyadh?", ar: "هل تقدمون الإصلاح في الموقع بالرياض؟" },
-    a: { en: "Yes, a technician visits your home in Riyadh to diagnose and repair the appliance on-site.", ar: "نعم، يزور الفني منزلك في الرياض لتشخيص الجهاز وإصلاحه في الموقع." } },
+    a: { en: "Yes. A technician visits your home in Riyadh and diagnoses the machine on the spot, so there is nothing to carry.", ar: "نعم. يزور الفني منزلك في الرياض ويشخّص الجهاز في مكانه، فلا شيء تحمله." } },
   { q: { en: "How can I book a repair?", ar: "كيف يمكنني حجز خدمة إصلاح؟" },
-    a: { en: "Call us, message us on WhatsApp, or fill in the contact form and we'll arrange a visit.", ar: "اتصل بنا، راسلنا عبر واتساب، أو املأ نموذج التواصل وسنقوم بترتيب الزيارة." } },
+    a: { en: "Call us, send a WhatsApp message with the brand and the fault, or use the contact form. We will confirm a time.", ar: "اتصل بنا، أو أرسل رسالة واتساب بالماركة والعطل، أو استخدم نموذج التواصل وسنؤكد لك الموعد." } },
   { q: { en: "How quickly can a technician visit?", ar: "ما مدى سرعة وصول الفني؟" },
-    a: { en: "We aim to schedule visits quickly, often on the same day depending on your area and time of contact.", ar: "نسعى لترتيب الزيارات بسرعة، وغالبًا في نفس اليوم حسب منطقتك ووقت التواصل." } },
+    a: { en: "We try to book quickly, often the same day, depending on where you are in Riyadh and when you get in touch.", ar: "نحاول الحجز بسرعة، وغالباً في اليوم نفسه، حسب موقعك في الرياض ووقت تواصلك." } },
   { q: { en: "Do you repair different appliance brands?", ar: "هل تصلحون مختلف ماركات الأجهزة؟" },
-    a: { en: "We work with a wide range of common brands. Let us know your appliance's brand and model when you contact us.", ar: "نتعامل مع مجموعة واسعة من الماركات الشائعة. أخبرنا بماركة وموديل جهازك عند التواصل معنا." } }
+    a: { en: "Yes, we work with the common brands. Tell us the brand and model when you get in touch.", ar: "نعم، نتعامل مع الماركات الشائعة. أخبرنا بالماركة والموديل عند التواصل." } }
 ];
 
 /* =========================================================
-   Blog data — home preview + full listing + one detail page.
+   Blog data, home preview + full listing + one detail page.
    ========================================================= */
 const blogData = [
   {
@@ -529,8 +529,8 @@ const blogData = [
     date: { en: "August 2026", ar: "أغسطس 2026" },
     title: { en: "5 Signs Your Washing Machine Needs Repair", ar: "٥ علامات تدل على حاجة غسالتك للإصلاح" },
     excerpt: {
-      en: "Loud noises, slow draining, and unfinished cycles usually mean something specific — here's what to check before you call a technician.",
-      ar: "الضوضاء العالية، بطء التصريف، والدورات غير المكتملة عادة ما تشير إلى مشكلة محددة — إليك ما يجب فحصه قبل الاتصال بالفني."
+      en: "Loud banging, slow draining, cycles that never finish: each usually points to something specific. Here is what to check before you call a technician.",
+      ar: "أصوات عالية، تصريف بطيء، ودورات لا تنتهي: كلٌّ منها يشير عادة إلى شيء محدد. إليك ما تفحصه قبل أن تتصل بالفني."
     }
   },
   {
@@ -541,8 +541,8 @@ const blogData = [
     date: { en: "July 2026", ar: "يوليو 2026" },
     title: { en: "Simple Dishwasher Maintenance That Prevents Repairs", ar: "صيانة بسيطة لغسالة الصحون تمنع الأعطال" },
     excerpt: {
-      en: "A blocked filter or spray arm causes most cleaning complaints. A few minutes a month keeps your dishwasher running well.",
-      ar: "انسداد الفلتر أو ذراع الرش هو سبب معظم شكاوى التنظيف. بضع دقائق شهريًا تحافظ على أداء غسالة الصحون."
+      en: "Most cleaning complaints trace back to a blocked filter or spray arm. A few minutes each month keeps a dishwasher out of trouble.",
+      ar: "أغلب شكاوى التنظيف سببها فلتر أو ذراع رش مسدود. بضع دقائق كل شهر تُبقي غسالة الصحون بعيدة عن المتاعب."
     }
   },
   {
@@ -553,8 +553,8 @@ const blogData = [
     date: { en: "June 2026", ar: "يونيو 2026" },
     title: { en: "Why Is My Dryer Not Heating Up?", ar: "لماذا لا تسخن نشافتي؟" },
     excerpt: {
-      en: "A dryer that spins but doesn't heat usually points to one of three common faults. Here's how to tell them apart.",
-      ar: "النشافة التي تدور دون تسخين تشير عادة إلى واحد من ثلاثة أعطال شائعة. إليك كيفية التمييز بينها."
+      en: "A dryer that spins but doesn't heat usually has one of three faults. Here is how to tell which one you have.",
+      ar: "النشافة التي تدور دون تسخين فيها عادة واحد من ثلاثة أعطال. إليك كيف تعرف أيّها عندك."
     }
   },
   {"slug": "washing-machine-repair-cost-riyadh", "icon": "bi-cash-coin", "group": "wm", "image": "repair-08-team-drum.webp", "date": {"en": "October 2026", "ar": "أكتوبر 2026"}, "title": {"en": "Washing Machine Repair Cost in Riyadh: What Determines the Price?", "ar": "تكلفة صيانة الغسالة الأوتوماتيك في الرياض: ما الذي يحدد السعر؟"}, "excerpt": {"en": "What decides the price of a washing machine repair in Riyadh, what a quote should include, and when replacing is better value.", "ar": "ما الذي يحدد سعر تصليح الغسالة في الرياض، وما الذي يجب أن يشمله عرض السعر، ومتى يكون الاستبدال أوفر؟"}},
@@ -562,11 +562,11 @@ const blogData = [
   {"slug": "how-to-clean-washing-machine", "icon": "bi-stars", "group": "wm", "image": "repair-02-dryer-filter.webp", "date": {"en": "October 2026", "ar": "أكتوبر 2026"}, "title": {"en": "How to Clean a Washing Machine and Keep It Working Well", "ar": "كيف تنظف الغسالة الأوتوماتيك وتحافظ عليها؟"}, "excerpt": {"en": "Simple steps to clean an automatic washing machine: drum, door seal, drawer and filter, and a schedule that cuts faults and smells.", "ar": "خطوات بسيطة لتنظيف الغسالة الأوتوماتيك: الحوض وحشية الباب والدرج والفلتر، وجدول للصيانة يقلل الأعطال والروائح."}},
   {"slug": "lg-vs-samsung-washing-machine-common-issues", "icon": "bi-arrow-left-right", "group": "wm", "image": "repair-07-control-board.webp", "date": {"en": "October 2026", "ar": "أكتوبر 2026"}, "title": {"en": "LG vs Samsung Washing Machine: Common Issues Compared", "ar": "غسالة إل جي أم سامسونج: مقارنة الأعطال الشائعة"}, "excerpt": {"en": "How the common faults and error codes of LG and Samsung washing machines compare, and what really changes between the two brands.", "ar": "مقارنة بين أعطال ورموز غسالات إل جي وسامسونج الشائعة، وما الذي يختلف فعلاً بين الماركتين."}},
   {"slug": "repair-or-replace-washing-machine", "icon": "bi-arrow-repeat", "group": "wm", "image": "repair-12-team-belt.webp", "date": {"en": "October 2026", "ar": "أكتوبر 2026"}, "title": {"en": "Repair or Replace a Washing Machine: How to Decide", "ar": "إصلاح الغسالة أم شراء غسالة جديدة: كيف تقرر؟"}, "excerpt": {"en": "How to decide between repairing and replacing a washing machine, and which faults are usually worth repairing.", "ar": "كيف تقرر بين إصلاح الغسالة واستبدالها، وأي الأعطال يُنصح غالباً بإصلاحها."}},
-  {"slug": "appliance-maintenance-checklist-riyadh", "icon": "bi-card-checklist", "group": "wm", "image": "repair-09-workshop-wide.webp", "date": {"en": "October 2026", "ar": "أكتوبر 2026"}, "title": {"en": "Washer, Dishwasher and Dryer Maintenance Checklist for Riyadh Homes", "ar": "قائمة صيانة الغسالة وغسالة الصحون والنشافة في الرياض"}, "excerpt": {"en": "A simple routine for washers, dishwashers and dryers: filters, seals, scale and lint.", "ar": "قائمة بسيطة بالصيانة الدورية للغسالة وغسالة الصحون والنشافة: الفلاتر والحشيات والترسبات والوبر."}}
+  {"slug": "washer-dishwasher-dryer-maintenance-checklist-riyadh", "icon": "bi-card-checklist", "group": "wm", "image": "repair-09-workshop-wide.webp", "date": {"en": "October 2026", "ar": "أكتوبر 2026"}, "title": {"en": "Washer, Dishwasher and Dryer Maintenance Checklist for Riyadh Homes", "ar": "قائمة صيانة الغسالة وغسالة الصحون والنشافة في الرياض"}, "excerpt": {"en": "A simple routine for washers, dishwashers and dryers: filters, seals, scale and lint.", "ar": "قائمة بسيطة بالصيانة الدورية للغسالة وغسالة الصحون والنشافة: الفلاتر والحشيات والترسبات والوبر."}}
 ];
 
 /* =========================================================
-   Brands serviced — shown as cards with logo + name (logos in images/brands/).
+   Brands serviced, shown as cards with logo + name (logos in images/brands/).
    ========================================================= */
 const brandsData = [
   { en: "Beko", ar: "بيكو", logo: "beko.png" },
@@ -582,39 +582,15 @@ const brandsData = [
 ];
 
 /* =========================================================
-   Testimonials — home page.
+   Testimonials, home page.
    ========================================================= */
-const testimonialsData = [
-  {
-    name: { en: "Ahmed S.", ar: "أحمد س." },
-    area: { en: "Al Yarmuk, Riyadh", ar: "حي اليرموك، الرياض" },
-    text: {
-      en: "Excellent service — my washing machine was fixed the same day and the technician clearly explained what was wrong before starting.",
-      ar: "خدمة ممتازة — تم إصلاح غسالتي في نفس اليوم، وشرح الفني بوضوح ما هي المشكلة قبل بدء العمل."
-    }
-  },
-  {
-    name: { en: "Fatimah A.", ar: "فاطمة أ." },
-    area: { en: "Riyadh", ar: "الرياض" },
-    text: {
-      en: "Professional and honest pricing from the first call. Highly recommend them for any home appliance repair in Riyadh.",
-      ar: "أسعار واضحة وصادقة من أول اتصال. أنصح بهم بشدة لأي إصلاح أجهزة منزلية في الرياض."
-    }
-  },
-  {
-    name: { en: "Mohammed K.", ar: "محمد ك." },
-    area: { en: "Riyadh", ar: "الرياض" },
-    text: {
-      en: "Quick response on WhatsApp and the dryer works perfectly now. Will definitely call them again for future repairs.",
-      ar: "استجابة سريعة عبر واتساب، والنشافة تعمل الآن بشكل ممتاز. بالتأكيد سأتواصل معهم مرة أخرى مستقبلاً."
-    }
-  }
-];
+const testimonialsData = []; // removed: no unverified testimonials are shown
+
 
 /* =========================================================
-   Service areas — Riyadh districts. Al Yarmuk is the home
+   Service areas, Riyadh districts. Al Yarmuk is the home
    base (confirmed); the rest are commonly-known nearby Riyadh
-   districts included as a starting list — confirm/edit with
+   districts included as a starting list, confirm/edit with
    the business owner before treating this as final.
    ========================================================= */
 const areasData = [

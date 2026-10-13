@@ -104,13 +104,14 @@
   }
 
   /* ---------------- Brands We Repair ---------------- */
+  const brandDims = {"panasonic": {"w": 413, "h": 150}, "maytag": {"w": 392, "h": 150}, "whirlpool": {"w": 420, "h": 145}, "lg": {"w": 343, "h": 150}, "samsung": {"w": 420, "h": 72}, "daewoo": {"w": 420, "h": 99}, "toshiba": {"w": 420, "h": 71}, "westinghouse": {"w": 420, "h": 71}, "beko": {"w": 260, "h": 150}, "hitachi": {"w": 420, "h": 67}};
   function renderBrands(lang){
     const container = document.getElementById("brandsGrid");
     if (!container || typeof brandsData === "undefined") return;
     const imgBase = container.getAttribute("data-images-base") || "images/";
     container.innerHTML = brandsData.map(brand => `
       <div class="brand-chip">
-        <span class="brand-logo"><img src="${imgBase}brands/${brand.logo}" alt="${brand[lang]}" loading="lazy" decoding="async"></span>
+        <span class="brand-logo"><img ${(function(){const d = brandDims[brand.logo.replace(".png","")]; return d ? `width="${d.w}" height="${d.h}"` : "";})()} src="${imgBase}brands/${brand.logo}" alt="${brand[lang]}" loading="lazy" decoding="async"></span>
         <span class="brand-name">${brand[lang]}</span>
       </div>
     `).join("");
