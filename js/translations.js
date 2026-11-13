@@ -19,8 +19,8 @@ const translations = {
 
     /* ---- Home ---- */
     hero_tag: "Riyadh · Automatic Washing Machine Repair",
-    hero_title: "Automatic Washing Machine Repair in Riyadh",
-    hero_desc: "Your automatic washing machine won't drain, won't spin, or just won't start? We send a technician to your door anywhere in Riyadh. He finds the real fault, tells you the cost, and only then picks up a screwdriver. We fix dishwashers and dryers too.",
+    hero_title: "Home Appliance Repair in Riyadh: Washers, Dishwashers and Dryers",
+    hero_desc: "Looking for washing machine repair near me in Riyadh? Whether it won't drain, won't spin, or just won't start, we send a technician to your door. He finds the real fault, tells you the cost, and only then picks up a screwdriver. We fix dishwashers and dryer machines too.",
     hero_cta_book: "Book a Repair",
     hero_cta_call: "Call Now",
     hero_cta_whatsapp: "WhatsApp Us",
@@ -219,8 +219,8 @@ const translations = {
     brand_name: "إصلاح الغسالات الأوتوماتيكية",
 
     hero_tag: "الرياض · صيانة الغسالات الأوتوماتيك",
-    hero_title: "صيانة الغسالات الأوتوماتيك في الرياض",
-    hero_desc: "غسالتك الأوتوماتيك لا تصرّف الماء أو لا تدور أو لا تعمل؟ يصلك فني إلى بابك في أي مكان بالرياض، فيحدد العطل الحقيقي ويخبرك بالتكلفة، ثم يبدأ العمل. ونصلح أيضاً غسالات الصحون والنشافات.",
+    hero_title: "تصليح غسالات في الرياض: غسالات اتوماتيك وصحون ونشافات",
+    hero_desc: "تبحث عن تصليح غسالات اتوماتيك في الرياض؟ غسالتك لا تصرّف الماء أو لا تدور أو لا تعمل؟ يصلك فني إلى بابك في أي مكان بالرياض، فيحدد العطل الحقيقي ويخبرك بالتكلفة، ثم يبدأ العمل. وإن احتاج العطل إلى قطع غيار غسالات فنخبرك بها وبتكلفتها قبل التركيب. ونصلح أيضاً غسالات الصحون والنشافات.",
     hero_cta_book: "احجز صيانة",
     hero_cta_call: "اتصل الآن",
     hero_cta_whatsapp: "تواصل عبر واتساب",
@@ -521,6 +521,78 @@ const faqDataHome = [
    Blog data, home preview + full listing + one detail page.
    ========================================================= */
 const blogData = [
+  {
+    slug: "can-you-fix-washing-machine-yourself",
+    icon: "bi-tools",
+    group: "wm",
+    image: "repair-11-chassis-repair.webp",
+    date: { en: "November 2026", ar: "نوفمبر 2026" },
+    title: { en: "Can You Fix a Washing Machine Yourself? What Is Safe to Try", ar: "هل تصلح الغسالة بنفسك؟ ما الذي يمكنك فحصه بأمان" },
+    excerpt: {
+      en: "Can you fix a washing machine yourself? See the simple checks that are safe at home, what to leave to a technician, and why electrics near water are risky.",
+      ar: "هل تصلح الغسالة بنفسك؟ تعرف على الفحوصات البسيطة الآمنة في البيت، وما يجب تركه لفني غسالات، ولماذا الكهرباء قرب الماء خطرة. اتصل بنا أو راسلنا واتساب."
+    }
+  },
+  {
+    slug: "clothes-come-out-wet-or-soapy",
+    icon: "bi-moisture",
+    group: "wm",
+    image: "repair-01-drum-closeup.webp",
+    date: { en: "November 2026", ar: "نوفمبر 2026" },
+    title: { en: "Clothes Coming Out of the Washing Machine Wet or Soapy: Causes and Fixes", ar: "الملابس تخرج مبللة أو بها رغوة صابون من الغسالة: الأسباب والحلول" },
+    excerpt: {
+      en: "Clothes coming out of the washing machine wet or soapy? Learn the likely causes of weak spin and detergent residue, how to tell them apart, and what to fix.",
+      ar: "الملابس تخرج مبللة أو بها رغوة صابون من الغسالة؟ تعرّف على أسباب ضعف العصر وبقايا المنظف، وكيف تفرّق بينها بسرعة، وما الحلول المناسبة لكل حالة."
+    }
+  },
+  {
+    slug: "hard-water-and-washing-machines-riyadh",
+    icon: "bi-droplet",
+    group: "wm",
+    image: "repair-08-team-drum.webp",
+    date: { en: "November 2026", ar: "نوفمبر 2026" },
+    title: { en: "Hard Water in Riyadh and Your Washing Machine: Scale Damage and How to Prevent It", ar: "الماء العسر في الرياض وتأثيره على الغسالة: أضرار الترسبات وكيف تمنعها" },
+    excerpt: {
+      en: "Hard water in Riyadh can leave limescale inside your washing machine. See the signs, how to descale safely and when to call a technician. Call or WhatsApp us.",
+      ar: "الماء العسر في الرياض قد يترك كلسا داخل غسالتك. تعرف على العلامات وطريقة إزالة الترسبات بأمان ومتى تحتاج فني غسالات. اتصل بنا أو راسلنا واتساب."
+    }
+  },
+  {
+    slug: "how-to-choose-washing-machine-repair-service-riyadh",
+    icon: "bi-patch-check",
+    group: "wm",
+    image: "repair-09-workshop-wide.webp",
+    date: { en: "November 2026", ar: "نوفمبر 2026" },
+    title: { en: "How to Choose a Washing Machine Repair Service in Riyadh", ar: "كيف تختار خدمة تصليح غسالات موثوقة في الرياض" },
+    excerpt: {
+      en: "A practical checklist for choosing a washing machine repair service in Riyadh: what to ask, how to compare quotes and which red flags to watch. Read it first.",
+      ar: "دليل عملي لاختيار خدمة تصليح غسالات في الرياض: ماذا تسأل قبل الزيارة، وكيف تقارن بين عرضين، وما العلامات التي تستدعي الحذر. اقرأه قبل أن تتصل."
+    }
+  },
+  {
+    slug: "washing-machine-door-will-not-open",
+    icon: "bi-door-closed",
+    group: "wm",
+    image: "repair-03-wiring-test.webp",
+    date: { en: "November 2026", ar: "نوفمبر 2026" },
+    title: { en: "Washing Machine Door Will Not Open: What to Do", ar: "باب الغسالة لا يفتح: ماذا تفعل" },
+    excerpt: {
+      en: "Washing machine door will not open? Learn the common causes, from lock delay and trapped water to a faulty latch, and the safe steps to try. Call if stuck.",
+      ar: "باب الغسالة لا يفتح؟ تعرّف على الأسباب الشائعة من تأخر القفل والماء المحبوس إلى عطل القفل، وعلى الخطوات الآمنة. وإذا استمر العطل تواصل معنا."
+    }
+  },
+  {
+    slug: "washing-machine-noise-vibration-causes",
+    icon: "bi-volume-up",
+    group: "wm",
+    image: "repair-01-drum-closeup.webp",
+    date: { en: "November 2026", ar: "نوفمبر 2026" },
+    title: { en: "Washing Machine Making Loud Noise or Shaking: Causes and Fixes", ar: "الغسالة تصدر صوتاً عالياً أو تهتز: الأسباب والحلول" },
+    excerpt: {
+      en: "Washing machine banging, grinding, squealing or walking across the floor? See the usual causes, what is safe to check, and call or WhatsApp us if it persists.",
+      ar: "الغسالة تطرق أو تصرّ أو تتحرك من مكانها أثناء العصر؟ تعرّف على الأسباب الشائعة وما تفحصه بأمان، واتصل بنا أو راسلنا واتساب إذا استمرت المشكلة."
+    }
+  },
   {
     slug: "signs-washing-machine-needs-repair",
     icon: "bi-droplet-half",

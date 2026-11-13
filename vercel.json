@@ -3,6 +3,16 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/blog/appliance-maintenance-checklist-riyadh",
+      "destination": "/blog/washer-dishwasher-dryer-maintenance-checklist-riyadh",
+      "permanent": true
+    },
+    {
+      "source": "/ar/blog/appliance-maintenance-checklist-riyadh",
+      "destination": "/ar/blog/washer-dishwasher-dryer-maintenance-checklist-riyadh",
+      "permanent": true
+    },
+    {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "siyana-riyadh.com" }],
       "destination": "https://www.siyana-riyadh.com/$1",
